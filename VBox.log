@@ -1,0 +1,2025 @@
+VirtualBox VM 5.1.28 r117968 darwin.amd64 (Sep 13 2017 11:30:26) release log
+00:00:01.848835 Log opened 2017-10-22T16:33:46.428046000Z
+00:00:01.848837 Build Type: release
+00:00:01.848863 OS Product: Darwin
+00:00:01.848878 OS Release: 15.6.0
+00:00:01.848892 OS Version: Darwin Kernel Version 15.6.0: Thu Jun 23 18:25:34 PDT 2016; root:xnu-3248.60.10~1/RELEASE_X86_64
+00:00:01.849058 DMI Product Name: MacBookPro5,3
+00:00:01.849164 DMI Product Version: 1.0
+00:00:01.849180 Host RAM: 8192MB (8.0GB) total, 3369MB (3.2GB) available
+00:00:01.849185 Executable: /Applications/VirtualBox.app/Contents/MacOS/VirtualBoxVM
+00:00:01.849187 Process ID: 1321
+00:00:01.849188 Package type: DARWIN_64BITS_GENERIC
+00:00:01.872210 Installed Extension Packs:
+00:00:01.872224   None installed!
+00:00:01.874618 Console: Machine state changed to 'Restoring'
+00:00:01.880967 Qt version: 5.6.2
+00:00:01.934692 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:02.000669 SUP: Loaded VMMR0.r0 (/Applications/VirtualBox.app/Contents/MacOS/VMMR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX
+00:00:02.000704 SUP: VMMR0EntryEx located at XXXXXXXXXXXXXXXX and VMMR0EntryFast at XXXXXXXXXXXXXXXX
+00:00:02.050070 Guest OS type: 'Debian_64'
+00:00:02.075979 fHMForced=true - No raw-mode support in this build!
+00:00:02.120937 File system of '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/Snapshots' (snapshots) is hfs
+00:00:02.120959 File system of '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' is hfs
+00:00:02.182493 Shared clipboard service loaded
+00:00:02.182529 Shared clipboard mode: Bidirectional
+00:00:02.210663 Drag and drop service loaded
+00:00:02.210679 Drag and drop mode: Off
+00:00:02.211160 OpenGL: Offline rendering support is ON (pid=1321)
+00:00:02.238964 OpenGL Info: 3D test passed
+00:00:02.376084 OpenGL: Offline rendering support is ON (pid=1321)
+00:00:02.378100 OpenGL Info: Render SPU: GL_VENDOR:   NVIDIA Corporation
+00:00:02.378120 OpenGL Info: Render SPU: GL_RENDERER: NVIDIA GeForce 9400M OpenGL Engine
+00:00:02.378128 OpenGL Info: Render SPU: GL_VERSION:  2.1 NVIDIA-10.0.51 310.90.10.05b12
+00:00:02.378138 OpenGL Info: Render SPU: GL_EXTENSIONS: GL_ARB_color_buffer_float GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_instanced_arrays GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_provoking_vertex GL_ARB_seamless_cube_map GL_ARB_shader_objects GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shadow GL_ARB_sync GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_mirrored_repeat GL_ARB_texture_non_power_of_two GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_transpose_matrix GL_ARB_vertex_array_bgra GL_ARB_vertex_blend GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_window_pos GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_clip_volume_hint GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_s3tc GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_rectangle GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_APPLE_aux_depth_stencil GL_APPLE_client_storage GL_APPLE_element_array GL_APPLE_fence GL_APPLE_float_pixels GL_APPLE_flush_buffer_range GL_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_packed_pixels GL_APPLE_pixel_buffer GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_specular_vector GL_APPLE_texture_range GL_APPLE_transform_hint GL_APPLE_vertex_array_object GL_APPLE_vertex_array_range GL_APPLE_vertex_point_size GL_APPLE_vertex_program_evaluators GL_APPLE_ycbcr_422 GL_ATI_separate_stencil GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_ATI_texture_mirror_once GL_IBM_rasterpos_clip GL_NV_blend_square GL_NV_conditional_render GL_NV_depth_clamp GL_NV_fog_distance GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_light_max_exponent GL_NV_multisample_filter_hint GL_NV_point_sprite GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod 
+00:00:02.378200 OpenGL Info: Host does not support OpenGL extension(s):
+00:00:02.378205 OpenGL Info:   GL_EXT_compiled_vertex_array
+00:00:02.378220 OpenGL Info:   GL_ARB_shadow_ambient
+00:00:02.378235 OpenGL Info:   GL_EXT_texture_env_combine
+00:00:02.378247 OpenGL Info:   GL_EXT_texture_env_dot3
+00:00:02.379598 OpenGL Info:   GL_IBM_texture_mirrored_repeat
+00:00:02.379639 OpenGL Info:   GL_EXT_blend_logic_op
+00:00:02.379666 OpenGL Info:   GL_EXT_texture_cube_map
+00:00:02.379676 OpenGL Info:   GL_EXT_texture_edge_clamp
+00:00:02.379691 OpenGL Info:   GL_EXT_texture_object
+00:00:02.379700 OpenGL Info:   GL_EXT_texture3D
+00:00:02.379718 OpenGL Info:   GL_NV_fragment_program
+00:00:02.379735 OpenGL Info:   GL_NV_register_combiners
+00:00:02.379745 OpenGL Info:   GL_NV_register_combiners2
+00:00:02.379759 OpenGL Info:   GL_NV_texture_rectangle
+00:00:02.379772 OpenGL Info:   GL_NV_vertex_program
+00:00:02.379782 OpenGL Info:   GL_NV_vertex_program1_1
+00:00:02.379791 OpenGL Info:   GL_NV_vertex_program2
+00:00:02.379814 OpenGL Info:   GL_SGIS_texture_border_clamp
+00:00:02.379842 OpenGL Info:   GL_GREMEDY_string_marker
+00:00:02.386704 OpenGL Info: Render SPU: GL_MAX_VERTEX_UNIFORM_COMPONENTS_ARB=4096
+00:00:02.386767 OpenGL Info: Host supports version 2.1 [2.1 NVIDIA-10.0.51 310.90.10.05b12]
+00:00:02.386774 OpenGL Info: Cfg: u32Caps(0x1f), fVisualBitsDefault(0x23)
+00:00:02.398952 Shared OpenGL service loaded -- 3D enabled
+00:00:02.451037 Guest Control service loaded
+00:00:02.454839 ************************* CFGM dump *************************
+00:00:02.454879 [/] (level 0)
+00:00:02.454882   CpuExecutionCap   <integer> = 0x0000000000000064 (100)
+00:00:02.454888   EnablePAE         <integer> = 0x0000000000000001 (1)
+00:00:02.454890   HMEnabled         <integer> = 0x0000000000000001 (1)
+00:00:02.454891   MemBalloonSize    <integer> = 0x0000000000000000 (0)
+00:00:02.454892   Name              <string>  = "NeuroDebian 8.0.0  (64bit)" (cb=27)
+00:00:02.454894   NumCPUs           <integer> = 0x0000000000000002 (2)
+00:00:02.454895   PageFusionAllowed <integer> = 0x0000000000000000 (0)
+00:00:02.454896   RamHoleSize       <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:02.454898   RamSize           <integer> = 0x0000000100000000 (4 294 967 296, 4 096 MB, 4 GB)
+00:00:02.454901   TimerMillies      <integer> = 0x000000000000000a (10)
+00:00:02.454902   UUID              <bytes>   = "22 c0 29 10 d1 93 68 4a 87 42 98 0a 8b e5 d9 87" (cb=16)
+00:00:02.454907 
+00:00:02.454907 [/CPUM/] (level 1)
+00:00:02.454909   GuestCpuName       <string>  = "host" (cb=5)
+00:00:02.454910   PortableCpuIdLevel <integer> = 0x0000000000000000 (0)
+00:00:02.454911 
+00:00:02.454912 [/DBGC/] (level 1)
+00:00:02.454913   GlobalInitScript <string>  = "/Users/lydiahellrung/Library/VirtualBox/dbgc-init" (cb=50)
+00:00:02.454914   HistoryFile      <string>  = "/Users/lydiahellrung/Library/VirtualBox/dbgc-history" (cb=53)
+00:00:02.454915   LocalInitScript  <string>  = "/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/dbgc-init" (cb=69)
+00:00:02.454917 
+00:00:02.454917 [/DBGF/] (level 1)
+00:00:02.454918   Path <string>  = "/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/debug/;/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/;/Users/lydiahellrung/" (cb=148)
+00:00:02.454920 
+00:00:02.454920 [/Devices/] (level 1)
+00:00:02.454922 
+00:00:02.454922 [/Devices/8237A/] (level 2)
+00:00:02.454923 
+00:00:02.454924 [/Devices/8237A/0/] (level 3)
+00:00:02.454925   Trusted <integer> = 0x0000000000000001 (1)
+00:00:02.454927 
+00:00:02.454927 [/Devices/VMMDev/] (level 2)
+00:00:02.454928 
+00:00:02.454929 [/Devices/VMMDev/0/] (level 3)
+00:00:02.454931   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:02.454932   PCIDeviceNo   <integer> = 0x0000000000000004 (4)
+00:00:02.454933   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:02.454934   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:02.454935 
+00:00:02.454936 [/Devices/VMMDev/0/Config/] (level 4)
+00:00:02.454938   GuestCoreDumpDir <string>  = "/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/Snapshots" (cb=69)
+00:00:02.454939 
+00:00:02.454940 [/Devices/VMMDev/0/LUN#0/] (level 4)
+00:00:02.454941   Driver <string>  = "HGCM" (cb=5)
+00:00:02.454942 
+00:00:02.454943 [/Devices/VMMDev/0/LUN#0/Config/] (level 5)
+00:00:02.454945   Object <integer> = 0x00007f8a5cb1e450 (140 232 237 376 592)
+00:00:02.454946 
+00:00:02.454947 [/Devices/VMMDev/0/LUN#999/] (level 4)
+00:00:02.454949   Driver <string>  = "MainStatus" (cb=11)
+00:00:02.454949 
+00:00:02.454950 [/Devices/VMMDev/0/LUN#999/Config/] (level 5)
+00:00:02.454952   First   <integer> = 0x0000000000000000 (0)
+00:00:02.454953   Last    <integer> = 0x0000000000000000 (0)
+00:00:02.454954   papLeds <integer> = 0x00007f8a5b9af5a0 (140 232 219 096 480)
+00:00:02.454956 
+00:00:02.454957 [/Devices/acpi/] (level 2)
+00:00:02.454958 
+00:00:02.454958 [/Devices/acpi/0/] (level 3)
+00:00:02.454960   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:02.454961   PCIDeviceNo   <integer> = 0x0000000000000007 (7)
+00:00:02.454962   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:02.454963   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:02.454964 
+00:00:02.454965 [/Devices/acpi/0/Config/] (level 4)
+00:00:02.454967   CpuHotPlug          <integer> = 0x0000000000000000 (0)
+00:00:02.454968   FdcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:02.454969   HostBusPciAddress   <integer> = 0x0000000000000000 (0)
+00:00:02.454970   HpetEnabled         <integer> = 0x0000000000000000 (0)
+00:00:02.454972   IOAPIC              <integer> = 0x0000000000000001 (1)
+00:00:02.454973   IocPciAddress       <integer> = 0x0000000000010000 (65 536)
+00:00:02.454974   NumCPUs             <integer> = 0x0000000000000002 (2)
+00:00:02.454975   Parallel0IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:02.454976   Parallel0Irq        <integer> = 0x0000000000000000 (0)
+00:00:02.454978   Parallel1IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:02.454979   Parallel1Irq        <integer> = 0x0000000000000000 (0)
+00:00:02.454980   Serial0IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:02.454981   Serial0Irq          <integer> = 0x0000000000000000 (0)
+00:00:02.454982   Serial1IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:02.454983   Serial1Irq          <integer> = 0x0000000000000000 (0)
+00:00:02.454987   ShowCpu             <integer> = 0x0000000000000001 (1)
+00:00:02.454988   ShowRtc             <integer> = 0x0000000000000000 (0)
+00:00:02.454989   SmcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:02.454991 
+00:00:02.454991 [/Devices/acpi/0/LUN#0/] (level 4)
+00:00:02.454993   Driver <string>  = "ACPIHost" (cb=9)
+00:00:02.454994 
+00:00:02.454994 [/Devices/acpi/0/LUN#0/Config/] (level 5)
+00:00:02.454996 
+00:00:02.454997 [/Devices/acpi/0/LUN#1/] (level 4)
+00:00:02.454998   Driver <string>  = "ACPICpu" (cb=8)
+00:00:02.454999 
+00:00:02.455000 [/Devices/acpi/0/LUN#1/Config/] (level 5)
+00:00:02.455002 
+00:00:02.455002 [/Devices/ahci/] (level 2)
+00:00:02.455004 
+00:00:02.455004 [/Devices/ahci/0/] (level 3)
+00:00:02.455006   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:02.455007   PCIDeviceNo   <integer> = 0x000000000000000d (13)
+00:00:02.455008   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:02.455009   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:02.455010 
+00:00:02.455011 [/Devices/ahci/0/Config/] (level 4)
+00:00:02.455013   Bootable  <integer> = 0x0000000000000001 (1)
+00:00:02.455014   PortCount <integer> = 0x000000000000001e (30)
+00:00:02.455015 
+00:00:02.455016 [/Devices/ahci/0/Config/Port0/] (level 5)
+00:00:02.455018   Hotpluggable        <integer> = 0x0000000000000001 (1)
+00:00:02.455019   NonRotationalMedium <integer> = 0x0000000000000000 (0)
+00:00:02.455020 
+00:00:02.455020 [/Devices/ahci/0/LUN#0/] (level 4)
+00:00:02.455022   Driver <string>  = "VD" (cb=3)
+00:00:02.455023 
+00:00:02.455024 [/Devices/ahci/0/LUN#0/Config/] (level 5)
+00:00:02.455026   BlockCache <integer> = 0x0000000000000001 (1)
+00:00:02.455027   Format     <string>  = "VMDK" (cb=5)
+00:00:02.455029   Mountable  <integer> = 0x0000000000000000 (0)
+00:00:02.455030   Path       <string>  = "/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk" (cb=94)
+00:00:02.455031   Type       <string>  = "HardDisk" (cb=9)
+00:00:02.455032   UseNewIo   <integer> = 0x0000000000000001 (1)
+00:00:02.455033 
+00:00:02.455034 [/Devices/ahci/0/LUN#999/] (level 4)
+00:00:02.455036   Driver <string>  = "MainStatus" (cb=11)
+00:00:02.455037 
+00:00:02.455037 [/Devices/ahci/0/LUN#999/Config/] (level 5)
+00:00:02.455039   DeviceInstance        <string>  = "ahci/0" (cb=7)
+00:00:02.455040   First                 <integer> = 0x0000000000000000 (0)
+00:00:02.455042   Last                  <integer> = 0x000000000000001d (29)
+00:00:02.455043   pConsole              <integer> = 0x00007f8a5b9aee00 (140 232 219 094 528)
+00:00:02.455046   papLeds               <integer> = 0x00007f8a5b9af1a0 (140 232 219 095 456)
+00:00:02.455048   pmapMediumAttachments <integer> = 0x00007f8a5b9af5c0 (140 232 219 096 512)
+00:00:02.455049 
+00:00:02.455050 [/Devices/apic/] (level 2)
+00:00:02.455051 
+00:00:02.455052 [/Devices/apic/0/] (level 3)
+00:00:02.455053   Trusted <integer> = 0x0000000000000001 (1)
+00:00:02.455054 
+00:00:02.455055 [/Devices/apic/0/Config/] (level 4)
+00:00:02.455057   IOAPIC  <integer> = 0x0000000000000001 (1)
+00:00:02.455058   Mode    <integer> = 0x0000000000000002 (2)
+00:00:02.455059   NumCPUs <integer> = 0x0000000000000002 (2)
+00:00:02.455060 
+00:00:02.455060 [/Devices/e1000/] (level 2)
+00:00:02.455062 
+00:00:02.455062 [/Devices/e1000/0/] (level 3)
+00:00:02.455064   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:02.455065   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:02.455066   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:02.455067   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:02.455069 
+00:00:02.455069 [/Devices/e1000/0/Config/] (level 4)
+00:00:02.455071   AdapterType    <integer> = 0x0000000000000000 (0)
+00:00:02.455072   CableConnected <integer> = 0x0000000000000001 (1)
+00:00:02.455073   LineSpeed      <integer> = 0x0000000000000000 (0)
+00:00:02.455074   MAC            <bytes>   = "08 00 27 f7 af 66" (cb=6)
+00:00:02.455076 
+00:00:02.455077 [/Devices/e1000/0/LUN#0/] (level 4)
+00:00:02.455079   Driver <string>  = "NAT" (cb=4)
+00:00:02.455080 
+00:00:02.455080 [/Devices/e1000/0/LUN#0/Config/] (level 5)
+00:00:02.455082   AliasMode       <integer> = 0x0000000000000000 (0)
+00:00:02.455083   BootFile        <string>  = "NeuroDebian 8.0.0  (64bit).pxe" (cb=31)
+00:00:02.455085   DNSProxy        <integer> = 0x0000000000000000 (0)
+00:00:02.455086   Network         <string>  = "10.0.2.0/24" (cb=12)
+00:00:02.455087   PassDomain      <integer> = 0x0000000000000001 (1)
+00:00:02.455088   TFTPPrefix      <string>  = "/Users/lydiahellrung/Library/VirtualBox/TFTP" (cb=45)
+00:00:02.455089   UseHostResolver <integer> = 0x0000000000000000 (0)
+00:00:02.455090 
+00:00:02.455091 [/Devices/e1000/0/LUN#999/] (level 4)
+00:00:02.455093   Driver <string>  = "MainStatus" (cb=11)
+00:00:02.455094 
+00:00:02.455094 [/Devices/e1000/0/LUN#999/Config/] (level 5)
+00:00:02.455096   First   <integer> = 0x0000000000000000 (0)
+00:00:02.455097   Last    <integer> = 0x0000000000000000 (0)
+00:00:02.455098   papLeds <integer> = 0x00007f8a5b9af480 (140 232 219 096 192)
+00:00:02.455100 
+00:00:02.455101 [/Devices/i8254/] (level 2)
+00:00:02.455102 
+00:00:02.455103 [/Devices/i8254/0/] (level 3)
+00:00:02.455104 
+00:00:02.455105 [/Devices/i8254/0/Config/] (level 4)
+00:00:02.455106 
+00:00:02.455107 [/Devices/i8259/] (level 2)
+00:00:02.455108 
+00:00:02.455109 [/Devices/i8259/0/] (level 3)
+00:00:02.455110   Trusted <integer> = 0x0000000000000001 (1)
+00:00:02.455111 
+00:00:02.455112 [/Devices/i8259/0/Config/] (level 4)
+00:00:02.455113 
+00:00:02.455114 [/Devices/ichac97/] (level 2)
+00:00:02.455114 
+00:00:02.455114 [/Devices/ichac97/0/] (level 3)
+00:00:02.455114   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:02.455114   PCIDeviceNo   <integer> = 0x0000000000000005 (5)
+00:00:02.455114   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:02.455114   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:02.455114 
+00:00:02.455114 [/Devices/ichac97/0/AudioConfig/] (level 4)
+00:00:02.455114 
+00:00:02.455114 [/Devices/ichac97/0/Config/] (level 4)
+00:00:02.455114   Codec <string>  = "STAC9700" (cb=9)
+00:00:02.455114 
+00:00:02.455114 [/Devices/ichac97/0/LUN#0/] (level 4)
+00:00:02.455114   Driver <string>  = "AUDIO" (cb=6)
+00:00:02.455114 
+00:00:02.455114 [/Devices/ichac97/0/LUN#0/AttachedDriver/] (level 5)
+00:00:02.455114   Driver <string>  = "CoreAudio" (cb=10)
+00:00:02.455114 
+00:00:02.455114 [/Devices/ichac97/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:02.455114   StreamName <string>  = "NeuroDebian 8.0.0  (64bit)" (cb=27)
+00:00:02.455114 
+00:00:02.455114 [/Devices/ichac97/0/LUN#0/Config/] (level 5)
+00:00:02.455114 
+00:00:02.455114 [/Devices/ichac97/0/LUN#1/] (level 4)
+00:00:02.455114   Driver <string>  = "AUDIO" (cb=6)
+00:00:02.455114 
+00:00:02.455114 [/Devices/ichac97/0/LUN#1/AttachedDriver/] (level 5)
+00:00:02.455114   Driver <string>  = "AudioVRDE" (cb=10)
+00:00:02.455114 
+00:00:02.455114 [/Devices/ichac97/0/LUN#1/AttachedDriver/Config/] (level 6)
+00:00:02.455114   AudioDriver      <string>  = "AudioVRDE" (cb=10)
+00:00:02.455114   Object           <integer> = 0x00007f8a5b6a6480 (140 232 215 913 600)
+00:00:02.455114   ObjectVRDPServer <integer> = 0x00007f8a5c0af400 (140 232 226 436 096)
+00:00:02.455114   StreamName       <string>  = "NeuroDebian 8.0.0  (64bit)" (cb=27)
+00:00:02.455114 
+00:00:02.455114 [/Devices/ioapic/] (level 2)
+00:00:02.455114 
+00:00:02.455114 [/Devices/ioapic/0/] (level 3)
+00:00:02.455114   Trusted <integer> = 0x0000000000000001 (1)
+00:00:02.455114 
+00:00:02.455114 [/Devices/ioapic/0/Config/] (level 4)
+00:00:02.455114   NumCPUs <integer> = 0x0000000000000002 (2)
+00:00:02.455114 
+00:00:02.455114 [/Devices/mc146818/] (level 2)
+00:00:02.455114 
+00:00:02.455114 [/Devices/mc146818/0/] (level 3)
+00:00:02.455114 
+00:00:02.455114 [/Devices/mc146818/0/Config/] (level 4)
+00:00:02.455114   UseUTC <integer> = 0x0000000000000001 (1)
+00:00:02.455114 
+00:00:02.455114 [/Devices/parallel/] (level 2)
+00:00:02.455114 
+00:00:02.455114 [/Devices/pcarch/] (level 2)
+00:00:02.455114 
+00:00:02.455114 [/Devices/pcarch/0/] (level 3)
+00:00:02.455114   Trusted <integer> = 0x0000000000000001 (1)
+00:00:02.455114 
+00:00:02.455114 [/Devices/pcarch/0/Config/] (level 4)
+00:00:02.455114 
+00:00:02.455114 [/Devices/pcbios/] (level 2)
+00:00:02.455114 
+00:00:02.455114 [/Devices/pcbios/0/] (level 3)
+00:00:02.455114   Trusted <integer> = 0x0000000000000001 (1)
+00:00:02.455114 
+00:00:02.455114 [/Devices/pcbios/0/Config/] (level 4)
+00:00:02.455114   APIC               <integer> = 0x0000000000000001 (1)
+00:00:02.455114   BootDevice0        <string>  = "IDE" (cb=4)
+00:00:02.455114   BootDevice1        <string>  = "DVD" (cb=4)
+00:00:02.455114   BootDevice2        <string>  = "IDE" (cb=4)
+00:00:02.455114   BootDevice3        <string>  = "NONE" (cb=5)
+00:00:02.455114   FloppyDevice       <string>  = "i82078" (cb=7)
+00:00:02.455302   HardDiskDevice     <string>  = "piix3ide" (cb=9)
+00:00:02.455303   IOAPIC             <integer> = 0x0000000000000001 (1)
+00:00:02.455305   McfgBase           <integer> = 0x0000000000000000 (0)
+00:00:02.455306   McfgLength         <integer> = 0x0000000000000000 (0)
+00:00:02.455308   NumCPUs            <integer> = 0x0000000000000002 (2)
+00:00:02.455309   PXEDebug           <integer> = 0x0000000000000000 (0)
+00:00:02.455312   SataHardDiskDevice <string>  = "ahci" (cb=5)
+00:00:02.455313   SataLUN1           <integer> = 0x0000000000000000 (0)
+00:00:02.455315   UUID               <bytes>   = "22 c0 29 10 d1 93 68 4a 87 42 98 0a 8b e5 d9 87" (cb=16)
+00:00:02.455319 
+00:00:02.455319 [/Devices/pcbios/0/Config/NetBoot/] (level 5)
+00:00:02.455321 
+00:00:02.455322 [/Devices/pcbios/0/Config/NetBoot/0/] (level 6)
+00:00:02.455324   NIC           <integer> = 0x0000000000000000 (0)
+00:00:02.455326   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:02.455327   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:02.455328   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:02.455329 
+00:00:02.455329 [/Devices/pci/] (level 2)
+00:00:02.455331 
+00:00:02.455331 [/Devices/pci/0/] (level 3)
+00:00:02.455333   Trusted <integer> = 0x0000000000000001 (1)
+00:00:02.455334 
+00:00:02.455334 [/Devices/pci/0/Config/] (level 4)
+00:00:02.455336   IOAPIC <integer> = 0x0000000000000001 (1)
+00:00:02.455337 
+00:00:02.455338 [/Devices/pckbd/] (level 2)
+00:00:02.455339 
+00:00:02.455340 [/Devices/pckbd/0/] (level 3)
+00:00:02.455341   Trusted <integer> = 0x0000000000000001 (1)
+00:00:02.455342 
+00:00:02.455343 [/Devices/pckbd/0/Config/] (level 4)
+00:00:02.455344 
+00:00:02.455345 [/Devices/pckbd/0/LUN#0/] (level 4)
+00:00:02.455346   Driver <string>  = "KeyboardQueue" (cb=14)
+00:00:02.455348 
+00:00:02.455348 [/Devices/pckbd/0/LUN#0/AttachedDriver/] (level 5)
+00:00:02.455350   Driver <string>  = "MainKeyboard" (cb=13)
+00:00:02.455351 
+00:00:02.455352 [/Devices/pckbd/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:02.455354   Object <integer> = 0x00007f8a5c82a0d0 (140 232 234 279 120)
+00:00:02.455355 
+00:00:02.455356 [/Devices/pckbd/0/LUN#0/Config/] (level 5)
+00:00:02.455358   QueueSize <integer> = 0x0000000000000040 (64)
+00:00:02.455359 
+00:00:02.455360 [/Devices/pckbd/0/LUN#1/] (level 4)
+00:00:02.455361   Driver <string>  = "MouseQueue" (cb=11)
+00:00:02.455362 
+00:00:02.455363 [/Devices/pckbd/0/LUN#1/AttachedDriver/] (level 5)
+00:00:02.455365   Driver <string>  = "MainMouse" (cb=10)
+00:00:02.455365 
+00:00:02.455366 [/Devices/pckbd/0/LUN#1/AttachedDriver/Config/] (level 6)
+00:00:02.455368   Object <integer> = 0x00007f8a5b65bfe0 (140 232 215 609 312)
+00:00:02.455370 
+00:00:02.455370 [/Devices/pckbd/0/LUN#1/Config/] (level 5)
+00:00:02.455372   QueueSize <integer> = 0x0000000000000080 (128)
+00:00:02.455373 
+00:00:02.455374 [/Devices/pcnet/] (level 2)
+00:00:02.455375 
+00:00:02.455376 [/Devices/piix3ide/] (level 2)
+00:00:02.455377 
+00:00:02.455378 [/Devices/piix3ide/0/] (level 3)
+00:00:02.455380   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:02.455381   PCIDeviceNo   <integer> = 0x0000000000000001 (1)
+00:00:02.455382   PCIFunctionNo <integer> = 0x0000000000000001 (1)
+00:00:02.455383   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:02.455384 
+00:00:02.455385 [/Devices/piix3ide/0/Config/] (level 4)
+00:00:02.455386   Type <string>  = "PIIX4" (cb=6)
+00:00:02.455387 
+00:00:02.455388 [/Devices/piix3ide/0/Config/PrimaryMaster/] (level 5)
+00:00:02.455390   NonRotationalMedium <integer> = 0x0000000000000000 (0)
+00:00:02.455391 
+00:00:02.455391 [/Devices/piix3ide/0/LUN#0/] (level 4)
+00:00:02.455393   Driver <string>  = "VD" (cb=3)
+00:00:02.455394 
+00:00:02.455395 [/Devices/piix3ide/0/LUN#0/Config/] (level 5)
+00:00:02.455396   EmptyDrive <integer> = 0x0000000000000001 (1)
+00:00:02.455398   Mountable  <integer> = 0x0000000000000001 (1)
+00:00:02.455399   Type       <string>  = "DVD" (cb=4)
+00:00:02.455400 
+00:00:02.455400 [/Devices/piix3ide/0/LUN#999/] (level 4)
+00:00:02.455402   Driver <string>  = "MainStatus" (cb=11)
+00:00:02.455403 
+00:00:02.455403 [/Devices/piix3ide/0/LUN#999/Config/] (level 5)
+00:00:02.455406   DeviceInstance        <string>  = "piix3ide/0" (cb=11)
+00:00:02.455407   First                 <integer> = 0x0000000000000000 (0)
+00:00:02.455408   Last                  <integer> = 0x0000000000000003 (3)
+00:00:02.455410   pConsole              <integer> = 0x00007f8a5b9aee00 (140 232 219 094 528)
+00:00:02.455412   papLeds               <integer> = 0x00007f8a5b9af180 (140 232 219 095 424)
+00:00:02.455414   pmapMediumAttachments <integer> = 0x00007f8a5b9af5c0 (140 232 219 096 512)
+00:00:02.455415 
+00:00:02.455416 [/Devices/serial/] (level 2)
+00:00:02.455417 
+00:00:02.455418 [/Devices/usb-ohci/] (level 2)
+00:00:02.455419 
+00:00:02.455420 [/Devices/usb-ohci/0/] (level 3)
+00:00:02.455422   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:02.455423   PCIDeviceNo   <integer> = 0x0000000000000006 (6)
+00:00:02.455424   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:02.455425   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:02.455426 
+00:00:02.455427 [/Devices/usb-ohci/0/Config/] (level 4)
+00:00:02.455428 
+00:00:02.455429 [/Devices/usb-ohci/0/LUN#0/] (level 4)
+00:00:02.455431   Driver <string>  = "VUSBRootHub" (cb=12)
+00:00:02.455432 
+00:00:02.455432 [/Devices/usb-ohci/0/LUN#0/Config/] (level 5)
+00:00:02.455434 
+00:00:02.455435 [/Devices/usb-ohci/0/LUN#999/] (level 4)
+00:00:02.455436   Driver <string>  = "MainStatus" (cb=11)
+00:00:02.455437 
+00:00:02.455438 [/Devices/usb-ohci/0/LUN#999/Config/] (level 5)
+00:00:02.455440   First   <integer> = 0x0000000000000000 (0)
+00:00:02.455441   Last    <integer> = 0x0000000000000000 (0)
+00:00:02.455442   papLeds <integer> = 0x00007f8a5b9af5a8 (140 232 219 096 488)
+00:00:02.455443 
+00:00:02.455444 [/Devices/vga/] (level 2)
+00:00:02.455446 
+00:00:02.455446 [/Devices/vga/0/] (level 3)
+00:00:02.455448   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:02.455449   PCIDeviceNo   <integer> = 0x0000000000000002 (2)
+00:00:02.455450   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:02.455451   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:02.455452 
+00:00:02.455453 [/Devices/vga/0/Config/] (level 4)
+00:00:02.455455   CustomVideoModes <integer> = 0x0000000000000000 (0)
+00:00:02.455456   FadeIn           <integer> = 0x0000000000000001 (1)
+00:00:02.455457   FadeOut          <integer> = 0x0000000000000001 (1)
+00:00:02.455459   HeightReduction  <integer> = 0x0000000000000000 (0)
+00:00:02.455460   LogoFile         <string>  = "" (cb=1)
+00:00:02.455461   LogoTime         <integer> = 0x0000000000000000 (0)
+00:00:02.455462   MonitorCount     <integer> = 0x0000000000000001 (1)
+00:00:02.455463   ShowBootMenu     <integer> = 0x0000000000000002 (2)
+00:00:02.455464   VRamSize         <integer> = 0x0000000002000000 (33 554 432, 32 MB)
+00:00:02.455466 
+00:00:02.455466 [/Devices/vga/0/LUN#0/] (level 4)
+00:00:02.455468   Driver <string>  = "MainDisplay" (cb=12)
+00:00:02.455469 
+00:00:02.455470 [/Devices/vga/0/LUN#0/Config/] (level 5)
+00:00:02.455471   Object <integer> = 0x00007f8a5b9c3e00 (140 232 219 180 544)
+00:00:02.455473 
+00:00:02.455474 [/Devices/vga/0/LUN#999/] (level 4)
+00:00:02.455476   Driver <string>  = "MainStatus" (cb=11)
+00:00:02.455477 
+00:00:02.455477 [/Devices/vga/0/LUN#999/Config/] (level 5)
+00:00:02.455479   First   <integer> = 0x0000000000000000 (0)
+00:00:02.455480   Last    <integer> = 0x0000000000000000 (0)
+00:00:02.455481   papLeds <integer> = 0x00007f8a5b9af5b8 (140 232 219 096 504)
+00:00:02.455483 
+00:00:02.455483 [/Devices/virtio-net/] (level 2)
+00:00:02.455485 
+00:00:02.455485 [/EM/] (level 1)
+00:00:02.455486   TripleFaultReset <integer> = 0x0000000000000000 (0)
+00:00:02.455488 
+00:00:02.455488 [/GIM/] (level 1)
+00:00:02.455489   Provider <string>  = "None" (cb=5)
+00:00:02.455490 
+00:00:02.455491 [/HM/] (level 1)
+00:00:02.455492   64bitEnabled       <integer> = 0x0000000000000001 (1)
+00:00:02.455494   EnableLargePages   <integer> = 0x0000000000000000 (0)
+00:00:02.455495   EnableNestedPaging <integer> = 0x0000000000000001 (1)
+00:00:02.455496   EnableUX           <integer> = 0x0000000000000001 (1)
+00:00:02.455497   EnableVPID         <integer> = 0x0000000000000001 (1)
+00:00:02.455498   Exclusive          <integer> = 0x0000000000000000 (0)
+00:00:02.455499   HMForced           <integer> = 0x0000000000000001 (1)
+00:00:02.455500 
+00:00:02.455501 [/MM/] (level 1)
+00:00:02.455502   CanUseLargerHeap <integer> = 0x0000000000000000 (0)
+00:00:02.455503 
+00:00:02.455504 [/PDM/] (level 1)
+00:00:02.455505 
+00:00:02.455505 [/PDM/AsyncCompletion/] (level 2)
+00:00:02.455507 
+00:00:02.455507 [/PDM/AsyncCompletion/File/] (level 3)
+00:00:02.455509 
+00:00:02.455509 [/PDM/AsyncCompletion/File/BwGroups/] (level 4)
+00:00:02.455511 
+00:00:02.455511 [/PDM/BlkCache/] (level 2)
+00:00:02.455513   CacheSize <integer> = 0x0000000000500000 (5 242 880, 5 MB)
+00:00:02.455515 
+00:00:02.455515 [/PDM/Devices/] (level 2)
+00:00:02.455516 
+00:00:02.455517 [/PDM/Drivers/] (level 2)
+00:00:02.455518 
+00:00:02.455519 [/PDM/Drivers/VBoxC/] (level 3)
+00:00:02.455520   Path <string>  = "/Applications/VirtualBox.app/Contents/MacOS/components/VBoxC" (cb=61)
+00:00:02.455521 
+00:00:02.455522 [/PDM/NetworkShaper/] (level 2)
+00:00:02.455523 
+00:00:02.455524 [/PDM/NetworkShaper/BwGroups/] (level 3)
+00:00:02.455525 
+00:00:02.455526 [/TM/] (level 1)
+00:00:02.455527   UTCOffset <integer> = 0x0000000000000000 (0)
+00:00:02.455528 
+00:00:02.455529 [/USB/] (level 1)
+00:00:02.455530 
+00:00:02.455530 [/USB/HidMouse/] (level 2)
+00:00:02.455532 
+00:00:02.455532 [/USB/HidMouse/0/] (level 3)
+00:00:02.455534 
+00:00:02.455534 [/USB/HidMouse/0/Config/] (level 4)
+00:00:02.455536   Mode <string>  = "absolute" (cb=9)
+00:00:02.455537 
+00:00:02.455537 [/USB/HidMouse/0/LUN#0/] (level 4)
+00:00:02.455539   Driver <string>  = "MouseQueue" (cb=11)
+00:00:02.455540 
+00:00:02.455541 [/USB/HidMouse/0/LUN#0/AttachedDriver/] (level 5)
+00:00:02.455542   Driver <string>  = "MainMouse" (cb=10)
+00:00:02.455543 
+00:00:02.455544 [/USB/HidMouse/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:02.455546   Object <integer> = 0x00007f8a5b65bfe0 (140 232 215 609 312)
+00:00:02.455548 
+00:00:02.455548 [/USB/HidMouse/0/LUN#0/Config/] (level 5)
+00:00:02.455550   QueueSize <integer> = 0x0000000000000080 (128)
+00:00:02.455552 
+00:00:02.455552 [/USB/USBProxy/] (level 2)
+00:00:02.455554 
+00:00:02.455554 [/USB/USBProxy/GlobalConfig/] (level 3)
+00:00:02.455556 
+00:00:02.455556 ********************* End of CFGM dump **********************
+00:00:02.455558 VM: fHMEnabled=true  (configured) fRecompileUser=false fRecompileSupervisor=false
+00:00:02.455561 VM: fRawRing1Enabled=false CSAM=false PATM=false
+00:00:02.455838 HM: HMR3Init: VT-x
+00:00:02.455962 MM: cbHyperHeap=0x140000 (1310720)
+00:00:02.480954 CPUM: fXStateHostMask=0x0; initial: 0x0; host XCR0=0x0
+00:00:02.482650 CPUM: Matched host CPU INTEL 0x6/0x17/0xa Intel_Core2_Penryn with CPU DB entry 'Intel Xeon X5482 3.20GHz' (INTEL 0x6/0x17/0x6 Intel_Core2_Penryn)
+00:00:02.484990 CPUM: MXCSR_MASK=0xffff (host: 0xffff)
+00:00:02.485113 CPUM: Microcode revision 0x00000A0B
+00:00:02.485256 CPUM: SetGuestCpuIdFeature: Enabled PAE
+00:00:02.485279 CPUM: VCPU  0: Cached APIC base MSR = 0x0
+00:00:02.485288 CPUM: VCPU  1: Cached APIC base MSR = 0x0
+00:00:02.486757 PGM: HCPhysInterPD=000000001ffa5000 HCPhysInterPaePDPT=000000001ffa8000 HCPhysInterPaePML4=000000001ffaa000
+00:00:02.486769 PGM: apInterPTs={000000001ffa6000,000000001ffa7000} apInterPaePTs={000000007230a000,00000001df50b000} apInterPaePDs={000000007210c000,00000001ab04d000,000000008c8ce000,0000000111bcf000} pInterPaePDPT64=000000001ffa9000
+00:00:02.486778 PGM: Host paging mode: AMD64+NX
+00:00:02.486797 PGM: PGMPool: cMaxPages=2096 (u64MaxPages=2084)
+00:00:02.486803 PGM: pgmR3PoolInit: cMaxPages=0x830 cMaxUsers=0x1060 cMaxPhysExts=0x1060 fCacheEnable=true 
+00:00:02.519591 TM: GIP - u32Mode=1 (Synchronous) u32UpdateHz=100 u32UpdateIntervalNS=10000000 enmUseTscDelta=0 (Not Applicable) fGetGipCpu=0x5 cCpus=2
+00:00:02.519724 TM: GIP - u64CpuHz=2 786 001 093 (0xa60f00c5)  SUPGetCpuHzFromGip => 2 790 870 100
+00:00:02.519734 TM: GIP - CPU: iCpuSet=0x0 idCpu=0x0 idApic=0x0 iGipCpu=0x1 i64TSCDelta=0 enmState=3 u64CpuHz=2786001093(*) cErrors=0
+00:00:02.519741 TM: GIP - CPU: iCpuSet=0x1 idCpu=0x1 idApic=0x1 iGipCpu=0x0 i64TSCDelta=0 enmState=3 u64CpuHz=2790870100(*) cErrors=0
+00:00:02.519860 TM: cTSCTicksPerSecond=2 786 001 093 (0xa60f00c5) enmTSCMode=1 (VirtTscEmulated)
+00:00:02.519862 TM: TSCTiedToExecution=false TSCNotTiedToHalt=false
+00:00:02.520672 IEM: TargetCpu=CURRENT, Microarch=Intel_Core2_Penryn
+00:00:02.520857 GIM: Using provider 'None' (Implementation version: 0)
+00:00:02.520950 AIOMgr: Default manager type is 'Async'
+00:00:02.520957 AIOMgr: Default file backend is 'NonBuffered'
+00:00:02.521105 BlkCache: Cache successfully initialized. Cache size is 5242880 bytes
+00:00:02.521112 BlkCache: Cache commit interval is 10000 ms
+00:00:02.521117 BlkCache: Cache commit threshold is 2621440 bytes
+00:00:02.625066 PcBios: [SMP] BIOS with 2 CPUs
+00:00:02.625746 PcBios: Using the 386+ BIOS image.
+00:00:02.627010 PcBios: MPS table at 000e1300
+00:00:02.629785 PcBios: fCheckShutdownStatusForSoftReset=true   fClearShutdownStatusOnHardReset=true 
+00:00:02.634072 SUP: Loaded VBoxDDR0.r0 (/Applications/VirtualBox.app/Contents/MacOS/VBoxDDR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX
+00:00:02.635435 CPUM: SetGuestCpuIdFeature: Enabled xAPIC
+00:00:02.636903 IOAPIC: Using implementation 2.0!
+00:00:02.637061 PIT: mode=3 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:02.683990 Shared Folders service loaded
+00:00:02.764889 VGA: Using the 386+ BIOS image.
+00:00:02.825143 DrvVD: Flushes will be ignored
+00:00:02.825163 DrvVD: Async flushes will be passed to the disk
+00:00:02.833243 VD: VDInit finished
+00:00:02.834233 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0723) created successfully
+00:00:02.840262 VD: Opening the disk took 15069057 ns
+00:00:02.840387 AHCI: LUN#0: disk, PCHS=16383/16/63, total number of sectors 83886080
+00:00:02.840419 AHCI: LUN#0: using async I/O
+00:00:02.840588 AHCI: Port1: No driver attached
+00:00:02.840599 AHCI: Port2: No driver attached
+00:00:02.840608 AHCI: Port3: No driver attached
+00:00:02.840617 AHCI: Port4: No driver attached
+00:00:02.840636 AHCI: Port5: No driver attached
+00:00:02.840650 AHCI: Port6: No driver attached
+00:00:02.840658 AHCI: Port7: No driver attached
+00:00:02.840666 AHCI: Port8: No driver attached
+00:00:02.840676 AHCI: Port9: No driver attached
+00:00:02.840683 AHCI: Port10: No driver attached
+00:00:02.840691 AHCI: Port11: No driver attached
+00:00:02.840700 AHCI: Port12: No driver attached
+00:00:02.840707 AHCI: Port13: No driver attached
+00:00:02.840715 AHCI: Port14: No driver attached
+00:00:02.840723 AHCI: Port15: No driver attached
+00:00:02.840731 AHCI: Port16: No driver attached
+00:00:02.840739 AHCI: Port17: No driver attached
+00:00:02.840746 AHCI: Port18: No driver attached
+00:00:02.840754 AHCI: Port19: No driver attached
+00:00:02.840762 AHCI: Port20: No driver attached
+00:00:02.840770 AHCI: Port21: No driver attached
+00:00:02.840778 AHCI: Port22: No driver attached
+00:00:02.840786 AHCI: Port23: No driver attached
+00:00:02.840793 AHCI: Port24: No driver attached
+00:00:02.840809 AHCI: Port25: No driver attached
+00:00:02.840817 AHCI: Port26: No driver attached
+00:00:02.840825 AHCI: Port27: No driver attached
+00:00:02.840833 AHCI: Port28: No driver attached
+00:00:02.840843 AHCI: Port29: No driver attached
+00:00:02.840891 AHCI#0: Reset the HBA
+00:00:02.841348 DrvVD: Flushes will be ignored
+00:00:02.841357 DrvVD: Async flushes will be passed to the disk
+00:00:02.841465 PIIX3 ATA: LUN#0: CD/DVD, total number of sectors 0, passthrough disabled
+00:00:02.841478 PIIX3 ATA: LUN#1: no unit
+00:00:02.841521 PIIX3 ATA: LUN#2: no unit
+00:00:02.841530 PIIX3 ATA: LUN#3: no unit
+00:00:02.841616 PIIX3 ATA: Ctl#0: finished processing RESET
+00:00:02.841635 PIIX3 ATA: Ctl#1: finished processing RESET
+00:00:02.841722 E1000#0 Chip=82540EM LinkUpDelay=5000ms EthernetCRC=on GSO=enabled Itr=enabled ItrRx=enabled R0=enabled GC=enabled
+00:00:02.857859 NAT: Guest address guess set to 10.0.2.15 by initialization
+00:00:02.886538 NAT: resolv.conf: nameserver 62.2.17.60
+00:00:02.886561 NAT: resolv.conf: nameserver 62.2.24.162
+00:00:02.886573 NAT: resolv.conf: nameserver 62.2.17.61
+00:00:02.886585 NAT: resolv.conf: too many nameserver lines, ignoring 62.2.24.158
+00:00:02.886618 NAT: Adding domain name home
+00:00:02.886626 NAT: DNS#0: 62.2.17.60
+00:00:02.886635 NAT: DNS#1: 62.2.24.162
+00:00:02.886643 NAT: DNS#2: 62.2.17.61
+00:00:02.888426 Audio: Initializing Core Audio driver
+00:00:02.994710 Audio: Host audio backend supports 1 output streams and 2 input streams at once
+00:00:02.994791 Audio: Initializing VRDE driver
+00:00:02.994816 Audio: Host audio backend supports 1 output streams and 2 input streams at once
+00:00:02.994856 AC97: Reset
+00:00:03.043321 VUSB: Attached 'HidMouse' to port 1
+00:00:03.043661 PGM: The CPU physical address width is 36 bits
+00:00:03.043673 PGM: PGMR3InitFinalize: 4 MB PSE mask 0000000fffffffff
+00:00:03.043798 TM: TMR3InitFinalize: fTSCModeSwitchAllowed=false
+00:00:03.051857 VMM: Thread-context hooks unavailable
+00:00:03.051947 HM: Using VT-x implementation 2.0
+00:00:03.051949 HM: Host CR4                        = 0x2660
+00:00:03.051952 HM: Host EFER                       = 0xd01
+00:00:03.051953 HM: MSR_IA32_SMM_MONITOR_CTL        = 0x0
+00:00:03.051954 HM: MSR_IA32_FEATURE_CONTROL        = 0x7
+00:00:03.051955 HM: MSR_IA32_VMX_BASIC_INFO         = 0x5a08000000000d
+00:00:03.051956 HM:   VMCS id                         = 0xd
+00:00:03.051957 HM:   VMCS size                       = 2048 bytes
+00:00:03.051958 HM:   VMCS physical address limit     = None
+00:00:03.051960 HM:   VMCS memory type                = 0x6
+00:00:03.051960 HM:   Dual-monitor treatment support  = true 
+00:00:03.051962 HM:   OUTS & INS instruction-info     = true 
+00:00:03.051963 HM: Max resume loops                = 8192
+00:00:03.051964 HM: MSR_IA32_VMX_PINBASED_CTLS      = 0x3f00000016
+00:00:03.051965 HM:   EXT_INT_EXIT
+00:00:03.051965 HM:   NMI_EXIT
+00:00:03.051966 HM:   VIRTUAL_NMI
+00:00:03.051966 HM:   PREEMPT_TIMER (must be cleared)
+00:00:03.051967 HM:   POSTED_INTR (must be cleared)
+00:00:03.051968 HM: MSR_IA32_VMX_PROCBASED_CTLS     = 0xf7f9fffe0401e172
+00:00:03.051969 HM:   INT_WINDOW_EXIT
+00:00:03.051969 HM:   USE_TSC_OFFSETTING
+00:00:03.051970 HM:   HLT_EXIT
+00:00:03.051971 HM:   INVLPG_EXIT
+00:00:03.051971 HM:   MWAIT_EXIT
+00:00:03.051972 HM:   RDPMC_EXIT
+00:00:03.051972 HM:   RDTSC_EXIT
+00:00:03.051987 HM:   CR3_LOAD_EXIT (must be set)
+00:00:03.051987 HM:   CR3_STORE_EXIT (must be set)
+00:00:03.051988 HM:   CR8_LOAD_EXIT
+00:00:03.051989 HM:   CR8_STORE_EXIT
+00:00:03.051989 HM:   USE_TPR_SHADOW
+00:00:03.051990 HM:   NMI_WINDOW_EXIT
+00:00:03.051990 HM:   MOV_DR_EXIT
+00:00:03.051991 HM:   UNCOND_IO_EXIT
+00:00:03.051991 HM:   USE_IO_BITMAPS
+00:00:03.051992 HM:   MONITOR_TRAP_FLAG (must be cleared)
+00:00:03.051993 HM:   USE_MSR_BITMAPS
+00:00:03.051993 HM:   MONITOR_EXIT
+00:00:03.051994 HM:   PAUSE_EXIT
+00:00:03.051994 HM:   USE_SECONDARY_EXEC_CTRL
+00:00:03.052008 HM: MSR_IA32_VMX_PROCBASED_CTLS2    = 0x4100000000
+00:00:03.052010 HM:   VIRT_APIC
+00:00:03.052010 HM:   EPT (must be cleared)
+00:00:03.052011 HM:   DESCRIPTOR_TABLE_EXIT (must be cleared)
+00:00:03.052011 HM:   RDTSCP (must be cleared)
+00:00:03.052012 HM:   VIRT_X2APIC (must be cleared)
+00:00:03.052013 HM:   VPID (must be cleared)
+00:00:03.052013 HM:   WBINVD_EXIT
+00:00:03.052014 HM:   UNRESTRICTED_GUEST (must be cleared)
+00:00:03.052014 HM:   APIC_REG_VIRT (must be cleared)
+00:00:03.052015 HM:   VIRT_INTR_DELIVERY (must be cleared)
+00:00:03.052015 HM:   PAUSE_LOOP_EXIT (must be cleared)
+00:00:03.052016 HM:   RDRAND_EXIT (must be cleared)
+00:00:03.052017 HM:   INVPCID (must be cleared)
+00:00:03.052017 HM:   VMFUNC (must be cleared)
+00:00:03.052018 HM:   VMCS_SHADOWING (must be cleared)
+00:00:03.052018 HM:   ENCLS_EXIT (must be cleared)
+00:00:03.052019 HM:   RDSEED_EXIT (must be cleared)
+00:00:03.052020 HM:   PML (must be cleared)
+00:00:03.052020 HM:   EPT_VE (must be cleared)
+00:00:03.052021 HM:   CONCEAL_FROM_PT (must be cleared)
+00:00:03.052021 HM:   XSAVES_XRSTORS (must be cleared)
+00:00:03.052022 HM:   TSC_SCALING (must be cleared)
+00:00:03.052022 HM: MSR_IA32_VMX_ENTRY_CTLS         = 0x3fff000011ff
+00:00:03.052024 HM:   LOAD_DEBUG (must be set)
+00:00:03.052024 HM:   IA32E_MODE_GUEST
+00:00:03.052025 HM:   ENTRY_SMM
+00:00:03.052025 HM:   DEACTIVATE_DUALMON
+00:00:03.052026 HM:   LOAD_GUEST_PERF_MSR
+00:00:03.052026 HM:   LOAD_GUEST_PAT_MSR (must be cleared)
+00:00:03.052027 HM:   LOAD_GUEST_EFER_MSR (must be cleared)
+00:00:03.052028 HM: MSR_IA32_VMX_EXIT_CTLS          = 0x3ffff00036dff
+00:00:03.052043 HM:   SAVE_DEBUG (must be set)
+00:00:03.052043 HM:   HOST_ADDR_SPACE_SIZE
+00:00:03.052044 HM:   LOAD_PERF_MSR
+00:00:03.052045 HM:   ACK_EXT_INT
+00:00:03.052045 HM:   SAVE_GUEST_PAT_MSR (must be cleared)
+00:00:03.052046 HM:   LOAD_HOST_PAT_MSR (must be cleared)
+00:00:03.052046 HM:   SAVE_GUEST_EFER_MSR (must be cleared)
+00:00:03.052047 HM:   LOAD_HOST_EFER_MSR (must be cleared)
+00:00:03.052047 HM:   SAVE_VMX_PREEMPT_TIMER (must be cleared)
+00:00:03.052048 HM: MSR_IA32_VMX_MISC               = 0x403c0
+00:00:03.052049 HM:   PREEMPT_TSC_BIT                 = 0x0
+00:00:03.052050 HM:   STORE_EFERLMA_VMEXIT            = false
+00:00:03.052051 HM:   ACTIVITY_STATES                 = 0x7
+00:00:03.052052 HM:   CR3_TARGET                      = 0x4
+00:00:03.052052 HM:   MAX_MSR                         = 512
+00:00:03.052053 HM:   RDMSR_SMBASE_MSR_SMM            = false
+00:00:03.052054 HM:   SMM_MONITOR_CTL_B2              = false
+00:00:03.052054 HM:   VMWRITE_VMEXIT_INFO             = false
+00:00:03.052055 HM:   MSEG_ID                         = 0x0
+00:00:03.052056 HM: MSR_IA32_VMX_CR0_FIXED0         = 0x80000021
+00:00:03.052057 HM: MSR_IA32_VMX_CR0_FIXED1         = 0xffffffff
+00:00:03.052058 HM: MSR_IA32_VMX_CR4_FIXED0         = 0x2000
+00:00:03.052059 HM: MSR_IA32_VMX_CR4_FIXED1         = 0x467ff
+00:00:03.052060 HM: MSR_IA32_VMX_VMCS_ENUM          = 0x2c
+00:00:03.052060 HM:   HIGHEST_INDEX                   = 0x16
+00:00:03.052061 HM: APIC-access page physaddr       = 0x000000002062e000
+00:00:03.052063 HM: VCPU  0: MSR bitmap physaddr    = 0x0000000020634000
+00:00:03.052064 HM: VCPU  0: VMCS physaddr          = 0x0000000020630000
+00:00:03.052065 HM: VCPU  1: MSR bitmap physaddr    = 0x000000002063e000
+00:00:03.052066 HM: VCPU  1: VMCS physaddr          = 0x000000002063a000
+00:00:03.052072 HM: Guest support: 32-bit and 64-bit
+00:00:03.052082 HM: Supports VMCS EFER fields       = false
+00:00:03.052083 HM: Enabled VMX
+00:00:03.052090 CPUM: SetGuestCpuIdFeature: Enabled SYSENTER/EXIT
+00:00:03.052091 CPUM: SetGuestCpuIdFeature: Enabled PAE
+00:00:03.052092 CPUM: SetGuestCpuIdFeature: Enabled LONG MODE
+00:00:03.052093 CPUM: SetGuestCpuIdFeature: Enabled SYSCALL/RET
+00:00:03.052108 CPUM: SetGuestCpuIdFeature: Enabled LAHF/SAHF
+00:00:03.052109 CPUM: SetGuestCpuIdFeature: Enabled NX
+00:00:03.052111 HM: Disabled VMX-preemption timer
+00:00:03.052125 HM: VT-x/AMD-V init method: GLOBAL
+00:00:03.052127 CPUM: VCPU  0: Cached APIC base MSR = 0xfee00900
+00:00:03.052165 CPUM: VCPU  1: Cached APIC base MSR = 0xfee00800
+00:00:03.086624 PcBios: SATA LUN#0 LCHS=1024/255/63
+00:00:03.086671 APIC: fPostedIntrsEnabled=false fVirtApicRegsEnabled=false fSupportsTscDeadline=false
+00:00:03.086685 VMM: fUsePeriodicPreemptionTimers=false
+00:00:03.086845 CPUM: Logical host processors: 2 present, 2 max, 2 online, online mask: 0000000000000003
+00:00:03.086852 CPUM: Physical host cores: 2
+00:00:03.086853 ************************* CPUID dump ************************
+00:00:03.086899          Raw Standard CPUID Leaves
+00:00:03.086900      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:03.086902 Gst: 00000000/0000  0000000d 756e6547 6c65746e 49656e69
+00:00:03.086905 Hst:                0000000d 756e6547 6c65746e 49656e69
+00:00:03.086907 Gst: 00000001/0000  0001067a 00020800 00080201 178bfbff
+00:00:03.086910 Hst:                0001067a 01020800 0408e3fd bfebfbff
+00:00:03.086912 Gst: 00000002/0000  05b0b101 005657f0 00000000 2cb4304e
+00:00:03.086915 Hst:                05b0b101 005657f0 00000000 2cb4304e
+00:00:03.086917 Gst: 00000003/0000  00000000 00000000 00000000 00000000
+00:00:03.086919 Hst:                00000000 00000000 00000000 00000000
+00:00:03.086921 Gst: 00000004/0000  04000121 01c0003f 0000003f 00000001
+00:00:03.086923 Hst:                04000121 01c0003f 0000003f 00000001
+00:00:03.086925 Gst: 00000004/0001  04000122 01c0003f 0000003f 00000001
+00:00:03.086927 Hst:                04000122 01c0003f 0000003f 00000001
+00:00:03.086929 Gst: 00000004/0002  04000143 05c0003f 00000fff 00000001
+00:00:03.086931 Hst:                04004143 05c0003f 00000fff 00000001
+00:00:03.086933 Gst: 00000004/0003  04000000 00000000 00000000 00000000
+00:00:03.086935 Hst:                00000000 00000000 00000000 00000000
+00:00:03.086937 Gst: 00000005/0000  00000000 00000000 00000000 00000000
+00:00:03.086939 Hst:                00000040 00000040 00000003 03122220
+00:00:03.086941 Gst: 00000006/0000  00000000 00000000 00000000 00000000
+00:00:03.086943 Hst:                00000001 00000002 00000003 00000000
+00:00:03.086944 Gst: 00000007/0000  00000000 00000000 00000000 00000000
+00:00:03.086946 Hst:                00000000 00000000 00000000 00000000
+00:00:03.086947 Gst: 00000008/0000  00000000 00000000 00000000 00000000
+00:00:03.086949 Hst:                00000400 00000000 00000000 00000000
+00:00:03.086951 Gst: 00000009/0000  00000000 00000000 00000000 00000000
+00:00:03.086953 Hst:                00000000 00000000 00000000 00000000
+00:00:03.086954 Gst: 0000000a/0000  00000000 00000000 00000000 00000000
+00:00:03.086956 Hst:                07280202 00000000 00000000 00000503
+00:00:03.086958 Gst: 0000000b/0000  00000000 00000000 00000000 00000000
+00:00:03.086959 Hst:                00000000 00000000 00000000 00000000
+00:00:03.086961 Gst: 0000000c/0000  00000000 00000000 00000000 00000000
+00:00:03.086963 Hst:                00000000 00000000 00000000 00000000
+00:00:03.086964 Gst: 0000000d/0000  00000000 00000000 00000000 00000000
+00:00:03.086966 Hst:                00000003 00000240 00000240 00000000
+00:00:03.086968 Gst: 0000000d/0001  00000000 00000000 00000000 00000000
+00:00:03.086969 Hst:                00000000 00000000 00000000 00000000
+00:00:03.086989                                Name: GenuineIntel
+00:00:03.086992                            Supports: 0x00000000-0x0000000d
+00:00:03.086994                              Family:  6 	Extended: 0 	Effective: 6
+00:00:03.086997                               Model:  7 	Extended: 1 	Effective: 23
+00:00:03.086999                            Stepping: 10
+00:00:03.087001                                Type: 0 (primary)
+00:00:03.087003                             APIC ID: 0x00
+00:00:03.087005                        Logical CPUs: 2
+00:00:03.087006                        CLFLUSH Size: 8
+00:00:03.087008                            Brand ID: 0x00
+00:00:03.087010 Features
+00:00:03.087011   Mnemonic - Description                                  = guest (host)
+00:00:03.087012   FPU - x87 FPU on Chip                                   = 1 (1)
+00:00:03.087015   VME - Virtual 8086 Mode Enhancements                    = 1 (1)
+00:00:03.087017   DE - Debugging extensions                               = 1 (1)
+00:00:03.087020   PSE - Page Size Extension                               = 1 (1)
+00:00:03.087022   TSC - Time Stamp Counter                                = 1 (1)
+00:00:03.087025   MSR - Model Specific Registers                          = 1 (1)
+00:00:03.087027   PAE - Physical Address Extension                        = 1 (1)
+00:00:03.087029   MCE - Machine Check Exception                           = 1 (1)
+00:00:03.087032   CX8 - CMPXCHG8B instruction                             = 1 (1)
+00:00:03.087034   APIC - APIC On-Chip                                     = 1 (1)
+00:00:03.087037   SEP - SYSENTER and SYSEXIT Present                      = 1 (1)
+00:00:03.087039   MTRR - Memory Type Range Registers                      = 1 (1)
+00:00:03.087041   PGE - PTE Global Bit                                    = 1 (1)
+00:00:03.087044   MCA - Machine Check Architecture                        = 1 (1)
+00:00:03.087046   CMOV - Conditional Move instructions                    = 1 (1)
+00:00:03.087048   PAT - Page Attribute Table                              = 1 (1)
+00:00:03.087051   PSE-36 - 36-bit Page Size Extension                     = 1 (1)
+00:00:03.087053   PSN - Processor Serial Number                           = 0 (0)
+00:00:03.087055   CLFSH - CLFLUSH instruction                             = 1 (1)
+00:00:03.087058   DS - Debug Store                                        = 0 (1)
+00:00:03.087060   ACPI - Thermal Mon. & Soft. Clock Ctrl.                 = 0 (1)
+00:00:03.087063   MMX - Intel MMX Technology                              = 1 (1)
+00:00:03.087065   FXSR - FXSAVE and FXRSTOR instructions                  = 1 (1)
+00:00:03.087067   SSE - SSE support                                       = 1 (1)
+00:00:03.087070   SSE2 - SSE2 support                                     = 1 (1)
+00:00:03.087072   SS - Self Snoop                                         = 0 (1)
+00:00:03.087075   HTT - Hyper-Threading Technology                        = 1 (1)
+00:00:03.087077   TM - Therm. Monitor                                     = 0 (1)
+00:00:03.087080   PBE - Pending Break Enabled                             = 0 (1)
+00:00:03.087082   SSE3 - SSE3 support                                     = 1 (1)
+00:00:03.087085   PCLMUL - PCLMULQDQ support (for AES-GCM)                = 0 (0)
+00:00:03.087087   DTES64 - DS Area 64-bit Layout                          = 0 (1)
+00:00:03.087090   MONITOR - MONITOR/MWAIT instructions                    = 0 (1)
+00:00:03.087092   CPL-DS - CPL Qualified Debug Store                      = 0 (1)
+00:00:03.087094   VMX - Virtual Machine Extensions                        = 0 (1)
+00:00:03.087096   SMX - Safer Mode Extensions                             = 0 (1)
+00:00:03.087099   EST - Enhanced SpeedStep Technology                     = 0 (1)
+00:00:03.087101   TM2 - Terminal Monitor 2                                = 0 (1)
+00:00:03.087103   SSSE3 - Supplemental Streaming SIMD Extensions 3        = 1 (1)
+00:00:03.087105   CNTX-ID - L1 Context ID                                 = 0 (0)
+00:00:03.087108   SDBG - Silicon Debug interface                          = 0 (0)
+00:00:03.087110   FMA - Fused Multiply Add extensions                     = 0 (0)
+00:00:03.087112   CX16 - CMPXCHG16B instruction                           = 0 (1)
+00:00:03.087115   TPRUPDATE - xTPR Update Control                         = 0 (1)
+00:00:03.087117   PDCM - Perf/Debug Capability MSR                        = 0 (1)
+00:00:03.087119   PCID - Process Context Identifiers                      = 0 (0)
+00:00:03.087121   DCA - Direct Cache Access                               = 0 (0)
+00:00:03.087124   SSE4_1 - SSE4_1 support                                 = 1 (1)
+00:00:03.087126   SSE4_2 - SSE4_2 support                                 = 0 (0)
+00:00:03.087129   X2APIC - x2APIC support                                 = 0 (0)
+00:00:03.087131   MOVBE - MOVBE instruction                               = 0 (0)
+00:00:03.087134   POPCNT - POPCNT instruction                             = 0 (0)
+00:00:03.087136   TSCDEADL - Time Stamp Counter Deadline                  = 0 (0)
+00:00:03.087138   AES - AES instructions                                  = 0 (0)
+00:00:03.087141   XSAVE - XSAVE instruction                               = 0 (1)
+00:00:03.087143   OSXSAVE - OSXSAVE instruction                           = 0 (0)
+00:00:03.087145   AVX - AVX support                                       = 0 (0)
+00:00:03.087148   F16C - 16-bit floating point conversion instructions    = 0 (0)
+00:00:03.087150   RDRAND - RDRAND instruction                             = 0 (0)
+00:00:03.087152   HVP - Hypervisor Present (we're a guest)                = 0 (0)
+00:00:03.087155 Structured Extended Feature Flags Enumeration (leaf 7):
+00:00:03.087156   Mnemonic - Description                                  = guest (host)
+00:00:03.087157   FSGSBASE - RDFSBASE/RDGSBASE/WRFSBASE/WRGSBASE instr.   = 0 (0)
+00:00:03.087159   TSCADJUST - Supports MSR_IA32_TSC_ADJUST                = 0 (0)
+00:00:03.087161   SGX - Supports Software Guard Extensions                = 0 (0)
+00:00:03.087163   BMI1 - Advanced Bit Manipulation extension 1            = 0 (0)
+00:00:03.087165   HLE - Hardware Lock Elision                             = 0 (0)
+00:00:03.087167   AVX2 - Advanced Vector Extensions 2                     = 0 (0)
+00:00:03.087170   FDP_EXCPTN_ONLY - FPU DP only updated on exceptions     = 0 (0)
+00:00:03.087171   SMEP - Supervisor Mode Execution Prevention             = 0 (0)
+00:00:03.087173   BMI2 - Advanced Bit Manipulation extension 2            = 0 (0)
+00:00:03.087175   ERMS - Enhanced REP MOVSB/STOSB instructions            = 0 (0)
+00:00:03.087177   INVPCID - INVPCID instruction                           = 0 (0)
+00:00:03.087180   RTM - Restricted Transactional Memory                   = 0 (0)
+00:00:03.087182   PQM - Platform Quality of Service Monitoring            = 0 (0)
+00:00:03.087184   DEPFPU_CS_DS - Deprecates FPU CS, FPU DS values if set  = 0 (0)
+00:00:03.087186   MPE - Intel Memory Protection Extensions                = 0 (0)
+00:00:03.087188   PQE - Platform Quality of Service Enforcement           = 0 (0)
+00:00:03.087190   AVX512F - AVX512 Foundation instructions                = 0 (0)
+00:00:03.087192   RDSEED - RDSEED instruction                             = 0 (0)
+00:00:03.087194   ADX - ADCX/ADOX instructions                            = 0 (0)
+00:00:03.087197   SMAP - Supervisor Mode Access Prevention                = 0 (0)
+00:00:03.087199   CLFLUSHOPT - CLFLUSHOPT (Cache Line Flush) instruction  = 0 (0)
+00:00:03.087201   INTEL_PT - Intel Processor Trace                        = 0 (0)
+00:00:03.087203   AVX512PF - AVX512 Prefetch instructions                 = 0 (0)
+00:00:03.087205   AVX512ER - AVX512 Exponential & Reciprocal instructions = 0 (0)
+00:00:03.087207   AVX512CD - AVX512 Conflict Detection instructions       = 0 (0)
+00:00:03.087209   SHA - Secure Hash Algorithm extensions                  = 0 (0)
+00:00:03.087211   PREFETCHWT1 - PREFETCHWT1 instruction                   = 0 (0)
+00:00:03.087213   PKU - Protection Key for Usermode pages                 = 0 (0)
+00:00:03.087215   OSPKU - CR4.PKU mirror                                  = 0 (0)
+00:00:03.087218 Processor Extended State Enumeration (leaf 0xd):
+00:00:03.087219    XSAVE area cur/max size by XCR0, guest: 0x0/0x0
+00:00:03.087221     XSAVE area cur/max size by XCR0, host: 0x240/0x240
+00:00:03.087243                    Valid XCR0 bits, guest: 0x00000000`00000000
+00:00:03.087245                     Valid XCR0 bits, host: 0x00000000`00000003 ( x87 SSE )
+00:00:03.087249                     XSAVE features, guest:
+00:00:03.087250                      XSAVE features, host:
+00:00:03.087252       XSAVE area cur size XCR0|XSS, guest: 0x0
+00:00:03.087254        XSAVE area cur size XCR0|XSS, host: 0x0
+00:00:03.087255                Valid IA32_XSS bits, guest: 0x00000000`00000000
+00:00:03.087257                 Valid IA32_XSS bits, host: 0x00000000`00000000
+00:00:03.087268          Raw Extended CPUID Leaves
+00:00:03.087269      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:03.087270 Gst: 80000000/0000  80000008 00000000 00000000 00000000
+00:00:03.087272 Hst:                80000008 00000000 00000000 00000000
+00:00:03.087274 Gst: 80000001/0000  00000000 00000000 00000001 20100800
+00:00:03.087276 Hst:                00000000 00000000 00000001 20100800
+00:00:03.087278 Gst: 80000002/0000  65746e49 2952286c 726f4320 4d542865
+00:00:03.087281 Hst:                65746e49 2952286c 726f4320 4d542865
+00:00:03.087283 Gst: 80000003/0000  44203229 43206f75 20205550 54202020
+00:00:03.087286 Hst:                44203229 43206f75 20205550 54202020
+00:00:03.087289 Gst: 80000004/0000  30303639 20402020 30382e32 007a4847
+00:00:03.087291 Hst:                30303639 20402020 30382e32 007a4847
+00:00:03.087294 Gst: 80000005/0000  00000000 00000000 00000000 00000000
+00:00:03.087296 Hst:                00000000 00000000 00000000 00000000
+00:00:03.087297 Gst: 80000006/0000  00000000 00000000 18008040 00000000
+00:00:03.087300 Hst:                00000000 00000000 18008040 00000000
+00:00:03.087301 Gst: 80000007/0000  00000000 00000000 00000000 00000000
+00:00:03.087303 Hst:                00000000 00000000 00000000 00000000
+00:00:03.087305 Gst: 80000008/0000  00003024 00000000 00000000 00000000
+00:00:03.087307 Hst:                00003024 00000000 00000000 00000000
+00:00:03.087309 Ext Name:                        
+00:00:03.087310 Ext Supports:                    0x80000000-0x80000008
+00:00:03.087311 Family:                          0  	Extended: 0 	Effective: 0
+00:00:03.087313 Model:                           0  	Extended: 0 	Effective: 0
+00:00:03.087314 Stepping:                        0
+00:00:03.087315 Brand ID:                        0x000
+00:00:03.087316 Ext Features
+00:00:03.087317   Mnemonic - Description                                  = guest (host)
+00:00:03.087318   FPU - x87 FPU on Chip                                   = 0 (0)
+00:00:03.087321   VME - Virtual 8086 Mode Enhancements                    = 0 (0)
+00:00:03.087323   DE - Debugging extensions                               = 0 (0)
+00:00:03.087325   PSE - Page Size Extension                               = 0 (0)
+00:00:03.087328   TSC - Time Stamp Counter                                = 0 (0)
+00:00:03.087330   MSR - K86 Model Specific Registers                      = 0 (0)
+00:00:03.087333   PAE - Physical Address Extension                        = 0 (0)
+00:00:03.087335   MCE - Machine Check Exception                           = 0 (0)
+00:00:03.087337   CX8 - CMPXCHG8B instruction                             = 0 (0)
+00:00:03.087340   APIC - APIC On-Chip                                     = 0 (0)
+00:00:03.087343   SEP - SYSCALL/SYSRET                                    = 1 (1)
+00:00:03.087345   MTRR - Memory Type Range Registers                      = 0 (0)
+00:00:03.087347   PGE - PTE Global Bit                                    = 0 (0)
+00:00:03.087350   MCA - Machine Check Architecture                        = 0 (0)
+00:00:03.087352   CMOV - Conditional Move instructions                    = 0 (0)
+00:00:03.087354   PAT - Page Attribute Table                              = 0 (0)
+00:00:03.087357   PSE-36 - 36-bit Page Size Extension                     = 0 (0)
+00:00:03.087359   NX - No-Execute/Execute-Disable                         = 1 (1)
+00:00:03.087361   AXMMX - AMD Extensions to MMX instructions              = 0 (0)
+00:00:03.087363   MMX - Intel MMX Technology                              = 0 (0)
+00:00:03.087365   FXSR - FXSAVE and FXRSTOR Instructions                  = 0 (0)
+00:00:03.087368   FFXSR - AMD fast FXSAVE and FXRSTOR instructions        = 0 (0)
+00:00:03.087369   Page1GB - 1 GB large page                               = 0 (0)
+00:00:03.087372   RDTSCP - RDTSCP instruction                             = 0 (0)
+00:00:03.087374   LM - AMD64 Long Mode                                    = 1 (1)
+00:00:03.087377   3DNOWEXT - AMD Extensions to 3DNow                      = 0 (0)
+00:00:03.087379   3DNOW - AMD 3DNow                                       = 0 (0)
+00:00:03.087382   LahfSahf - LAHF/SAHF support in 64-bit mode             = 1 (1)
+00:00:03.087384   CmpLegacy - Core multi-processing legacy mode           = 0 (0)
+00:00:03.087386   SVM - AMD Secure Virtual Machine extensions             = 0 (0)
+00:00:03.087388   EXTAPIC - AMD Extended APIC registers                   = 0 (0)
+00:00:03.087390   CR8L - AMD LOCK MOV CR0 means MOV CR8                   = 0 (0)
+00:00:03.087392   ABM - AMD Advanced Bit Manipulation                     = 0 (0)
+00:00:03.087394   SSE4A - SSE4A instructions                              = 0 (0)
+00:00:03.087397   MISALIGNSSE - AMD Misaligned SSE mode                   = 0 (0)
+00:00:03.087399   3DNOWPRF - AMD PREFETCH and PREFETCHW instructions      = 0 (0)
+00:00:03.087401   OSVW - AMD OS Visible Workaround                        = 0 (0)
+00:00:03.087403   IBS - Instruct Based Sampling                           = 0 (0)
+00:00:03.087405   XOP - Extended Operation support                        = 0 (0)
+00:00:03.087408   SKINIT - SKINIT, STGI, and DEV support                  = 0 (0)
+00:00:03.087410   WDT - AMD Watchdog Timer support                        = 0 (0)
+00:00:03.087412   LWP - Lightweight Profiling support                     = 0 (0)
+00:00:03.087414   FMA4 - Four operand FMA instruction support             = 0 (0)
+00:00:03.087416   NodeId - NodeId in MSR C001_100C                        = 0 (0)
+00:00:03.087418   TBM - Trailing Bit Manipulation instructions            = 0 (0)
+00:00:03.087420   TOPOEXT - Topology Extensions                           = 0 (0)
+00:00:03.087423 Full Name:                       "Intel(R) Core(TM)2 Duo CPU     T9600  @ 2.80GHz"
+00:00:03.087424 TLB 2/4M Instr/Uni:              res0     0 entries
+00:00:03.087426 TLB 2/4M Data:                   res0     0 entries
+00:00:03.087427 TLB 4K Instr/Uni:                res0     0 entries
+00:00:03.087428 TLB 4K Data:                     res0     0 entries
+00:00:03.087429 L1 Instr Cache Line Size:        0 bytes
+00:00:03.087430 L1 Instr Cache Lines Per Tag:    0
+00:00:03.087431 L1 Instr Cache Associativity:    res0  
+00:00:03.087431 L1 Instr Cache Size:             0 KB
+00:00:03.087432 L1 Data Cache Line Size:         0 bytes
+00:00:03.087433 L1 Data Cache Lines Per Tag:     0
+00:00:03.087434 L1 Data Cache Associativity:     res0  
+00:00:03.087435 L1 Data Cache Size:              0 KB
+00:00:03.087436 L2 TLB 2/4M Instr/Uni:           off       0 entries
+00:00:03.087437 L2 TLB 2/4M Data:                off       0 entries
+00:00:03.087439 L2 TLB 4K Instr/Uni:             off       0 entries
+00:00:03.087440 L2 TLB 4K Data:                  off       0 entries
+00:00:03.087441 L2 Cache Line Size:              0 bytes
+00:00:03.087442 L2 Cache Lines Per Tag:          0
+00:00:03.087442 L2 Cache Associativity:          off   
+00:00:03.087443 L2 Cache Size:                   0 KB
+00:00:03.087444 APM Features:                   
+00:00:03.087446 Host Invariant-TSC support:      false
+00:00:03.087447 Physical Address Width:          36 bits
+00:00:03.087448 Virtual Address Width:           48 bits
+00:00:03.087449 Guest Physical Address Width:    0 bits
+00:00:03.087450 Physical Core Count:             1
+00:00:03.087452 
+00:00:03.087453 ******************** End of CPUID dump **********************
+00:00:03.096532 VMEmt: Halt method global1 (5)
+00:00:03.096597 VMEmt: HaltedGlobal1 config: cNsSpinBlockThresholdCfg=2000
+00:00:03.096656 Changing the VM state from 'CREATING' to 'CREATED'
+00:00:03.119070 SharedFolders host service: Adding host mapping
+00:00:03.119081     Host path '/Volumes/JustData/Neurodebian_Share', map name 'Neurodebian_Share', writable, automount=true, create_symlinks=false, missing=false
+00:00:03.119492 Changing the VM state from 'CREATED' to 'LOADING'
+00:00:03.120072 SSM: File header: Format 2.0, VirtualBox Version 5.1.28 r117968, 64-bit host, cbGCPhys=8, cbGCPtr=8
+00:00:03.128674 VUSB: Detached 'HidMouse' from port 1
+00:00:03.128813 SSM: Saved state info:
+00:00:03.128820 SSM:   Build Type: release
+00:00:03.128825 SSM:   Host OS: darwin.amd64
+00:00:03.129237 PCI:    PIIX3/0: register 60: 0b -> 8b
+00:00:03.129247 PCI:    PIIX3/0: register 61: 09 -> 8b
+00:00:03.129252 PCI:    PIIX3/0: register 62: 0b -> 8a
+00:00:03.129258 PCI:    PIIX3/0: register 63: 09 -> 8b
+00:00:03.129263 PCI:    PIIX3/0: register ad: 00 -> ef
+00:00:03.129268 PCI:    PIIX3/0: register de: 00 -> be
+00:00:03.129273 PCI: piix3ide/0:  8-bit field LATENCY_TIMER: 0 -> 40
+00:00:03.129335 PCI: piix3ide/0: register 40: 00 -> 03
+00:00:03.129341 PCI: piix3ide/0: register 41: 80 -> e3
+00:00:03.129346 PCI: piix3ide/0: register 43: 80 -> c0
+00:00:03.129351 PCI: piix3ide/0: register 48: 00 -> 01
+00:00:03.129356 PCI: piix3ide/0: register 4a: 00 -> 02
+00:00:03.129362 PCI:      vga/0:  8-bit field INTERRUPT_LINE: 9 -> b
+00:00:03.129368 PCI:      vga/0: 16-bit field COMMAND: 3 -> 7
+00:00:03.130022 PCI:    e1000/0:  8-bit field LATENCY_TIMER: 0 -> 40
+00:00:03.130067 PCI:    e1000/0:  8-bit field INTERRUPT_LINE: b -> a
+00:00:03.130073 PCI:    e1000/0: 16-bit field COMMAND: 3 -> 7
+00:00:03.130107 PCI:   VMMDev/0: 16-bit field COMMAND: 3 -> 7
+00:00:03.130120 PCI:  ichac97/0:  8-bit field LATENCY_TIMER: 0 -> 40
+00:00:03.130126 PCI:  ichac97/0: 16-bit field COMMAND: 1 -> 7
+00:00:03.130134 PCI: usb-ohci/0:  8-bit field LATENCY_TIMER: 0 -> 40
+00:00:03.130140 PCI: usb-ohci/0:  8-bit field INTERRUPT_LINE: 9 -> b
+00:00:03.130145 PCI: usb-ohci/0: 16-bit field COMMAND: 2 -> 7
+00:00:03.130166 PCI:     acpi/0: 16-bit field COMMAND: 1 -> 7
+00:00:03.130173 PCI:     ahci/0:  8-bit field LATENCY_TIMER: 0 -> 40
+00:00:03.130178 PCI:     ahci/0: 16-bit field COMMAND: 3 -> 7
+00:00:03.130226 PCI:     ahci/0: register 92: 3f -> ff
+00:00:03.130232 PCI:     ahci/0: register 93: 01 -> ff
+00:00:05.858367 TM: cTSCTicksPerSecond=0xa60f0522 (2 786 002 210) enmTSCMode=1 (VirtTscEmulated) (state load)
+00:00:05.858557 PIT: mode=0 count=0x10000 (65536) - 18.20 Hz (ch=0) (restore)
+00:00:05.858572 RTC: stopped the periodic timer (restore)
+00:00:05.858707 HGCM: restoring [VBoxSharedFolders]
+00:00:05.858794 HGCM: restoring [VBoxGuestControlSvc]
+00:00:05.858861 HGCM: restoring [VBoxGuestPropSvc]
+00:00:05.858902 HGCM: restoring [VBoxSharedCrOpenGL]
+00:00:05.858909 HGCM: restoring [VBoxDragAndDropSvc]
+00:00:05.858971 HGCM: restoring [VBoxSharedClipboard]
+00:00:05.859149 VMMDev: Guest Additions information report: Interface = 0x00010004 osType = 0x00053100 (Linux >= 2.6, 64-bit)
+00:00:05.863833 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners.
+00:00:05.863863 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary.
+00:00:05.863872 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:05.863878 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=13
+00:00:05.863894 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:05.863913 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=13
+00:00:05.863929 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:05.863935 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=13
+00:00:05.863947 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:05.863953 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=13
+00:00:06.072554 CPUM: VCPU  0: Cached APIC base MSR = 0xfee00900
+00:00:06.072583 CPUM: VCPU  1: Cached APIC base MSR = 0xfee00800
+00:00:06.072744 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+00:00:06.075746 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+00:00:06.075832 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+00:00:06.075845 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+00:00:06.075853 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+00:00:06.076106 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+00:00:06.084769 Changing the VM state from 'LOADING' to 'SUSPENDED'
+00:00:06.084893 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+00:00:06.085170 NAT: Link down
+00:00:06.085170 Changing the VM state from 'RESUMING' to 'RUNNING'
+00:00:06.085170 Console: Machine state changed to 'Running'
+00:00:06.159229 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+00:00:06.159316 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+00:00:06.358716 VUSB: Attached 'HidMouse' to port 1
+00:00:06.424646 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary.
+00:00:06.427894 GUI: 2D video acceleration is disabled
+00:00:06.427936 GUI: HID LEDs sync is enabled
+00:00:06.463241 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:11.108781 NAT: Link up
+00:00:11.108874 NAT: resolv.conf: nameserver 62.2.17.60
+00:00:11.108886 NAT: resolv.conf: nameserver 62.2.24.162
+00:00:11.108894 NAT: resolv.conf: nameserver 62.2.17.61
+00:00:11.108901 NAT: resolv.conf: too many nameserver lines, ignoring 62.2.24.158
+00:00:11.108920 NAT: Adding domain name home
+00:00:11.108926 NAT: DNS#0: 62.2.17.60
+00:00:11.108932 NAT: DNS#1: 62.2.24.162
+00:00:11.108937 NAT: DNS#2: 62.2.17.61
+00:10:16.287054 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+00:10:16.287365 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x1
+00:10:16.287521 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:10:16.287582 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=1313 h=575 bpp=32 cbLine=0x1484 flags=0x1
+00:10:16.287703 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:10:16.287793 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+00:10:16.287922 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+00:10:16.287946 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+00:10:16.288017 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+00:10:16.288499 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+00:10:16.288651 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x1
+00:10:16.288692 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=1313 h=575 bpp=32 cbLine=0x1484 flags=0x1
+00:10:16.288765 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+00:10:16.289299 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+00:10:16.312273 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+00:10:16.312412 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+00:10:16.312522 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+00:10:16.315513 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+00:10:16.324105 GUI: UIMachineLogic: Guest-screen count changed
+00:10:16.324267 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:10:16.324290 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:11:47.523405 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:11:52.331803 AIOMgr: Host limits number of active IO requests to 16. Expect a performance impact.
+00:12:15.470015 NAT: DNS servers changed, triggering reconnect
+00:12:15.470998 NAT: Link down
+00:12:15.507370 NAT: DNS servers changed, triggering reconnect
+00:12:20.471354 NAT: Link up
+00:12:20.471571 NAT: resolv.conf: nameserver 130.60.128.3
+00:12:20.471601 NAT: resolv.conf: nameserver 130.60.64.51
+00:12:20.471643 NAT: Adding domain name uzh.ch
+00:12:20.471656 NAT: DNS#0: 130.60.128.3
+00:12:20.471669 NAT: DNS#1: 130.60.64.51
+00:22:29.481797 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+00:22:29.481883 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x1
+00:22:29.481909 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=1313 h=575 bpp=32 cbLine=0x1484 flags=0x1
+00:22:29.481945 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+00:22:29.481971 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:22:29.481981 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:22:29.482045 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+00:22:29.482068 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+00:22:29.482081 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+00:22:29.482097 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+00:22:29.482141 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x3
+00:22:29.482156 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+00:22:29.482453 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+00:22:29.483274 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+00:22:29.483626 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+00:22:29.483756 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x3
+00:22:29.483812 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+00:22:29.486673 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+00:22:29.489567 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:22:29.489579 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:22:29.489597 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+00:22:29.489604 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+00:22:29.489617 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+00:22:29.489811 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+00:22:29.495187 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:22:29.495198 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:22:29.495208 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+00:22:29.495214 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+00:22:29.495312 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+00:30:04.275188 Pausing VM execution, reason 'host suspend'
+00:30:04.275188 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+00:30:04.315456 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0781) created successfully
+00:30:04.386795 PDMR3Suspend: 111 607 706 ns run time
+00:30:04.386795 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+00:30:04.386795 Console: Machine state changed to 'Paused'
+00:30:58.524282 NAT: DNS servers changed, triggering reconnect
+00:30:58.548003 NAT: DNS servers changed, triggering reconnect
+00:31:04.243981 Resuming VM execution, reason 'host resume'
+00:31:04.244060 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+00:31:04.244204 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0723) created successfully
+00:31:04.297819 NAT: Link down
+00:31:04.297854 Changing the VM state from 'RESUMING' to 'RUNNING'
+00:31:04.297871 Console: Machine state changed to 'Running'
+00:31:04.381335 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+00:31:04.381388 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+00:31:09.301462 NAT: Link up
+00:31:12.069052 NAT: DNS servers changed, triggering reconnect
+00:31:12.069949 NAT: Link down
+00:31:12.090467 NAT: DNS servers changed, triggering reconnect
+00:31:17.072891 NAT: Link up
+00:31:17.073137 NAT: resolv.conf: nameserver 62.2.17.60
+00:31:17.073167 NAT: resolv.conf: nameserver 62.2.24.162
+00:31:17.073183 NAT: resolv.conf: nameserver 62.2.17.61
+00:31:17.073199 NAT: resolv.conf: too many nameserver lines, ignoring 62.2.24.158
+00:31:17.073243 NAT: Adding domain name home
+00:31:17.073254 NAT: DNS#0: 62.2.17.60
+00:31:17.073310 NAT: DNS#1: 62.2.24.162
+00:31:17.073321 NAT: DNS#2: 62.2.17.61
+00:43:28.835117 Pausing VM execution, reason 'host suspend'
+00:43:28.835117 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+00:43:28.865468 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0781) created successfully
+00:43:28.935768 PDMR3Suspend: 100 650 862 ns run time
+00:43:28.935768 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+00:43:28.935768 Console: Machine state changed to 'Paused'
+00:44:24.804892 NAT: DNS servers changed, triggering reconnect
+00:44:26.635873 Resuming VM execution, reason 'host resume'
+00:44:26.636060 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+00:44:26.636387 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0723) created successfully
+00:44:26.718398 NAT: Link down
+00:44:26.718398 Changing the VM state from 'RESUMING' to 'RUNNING'
+00:44:26.718398 Console: Machine state changed to 'Running'
+00:44:26.784755 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+00:44:26.784755 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+00:44:31.731400 NAT: Link up
+00:44:38.470009 Pausing VM execution, reason 'host suspend'
+00:44:38.470560 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+00:44:39.253282 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0781) created successfully
+00:44:39.609391 PDMR3Suspend: 1 138 809 022 ns run time
+00:44:39.609408 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+00:44:39.609427 Console: Machine state changed to 'Paused'
+00:45:02.992053 NAT: DNS servers changed, triggering reconnect
+00:45:03.011624 NAT: DNS servers changed, triggering reconnect
+00:45:42.353175 NAT: DNS servers changed, triggering reconnect
+00:45:45.607833 Resuming VM execution, reason 'host resume'
+00:45:45.607833 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+00:45:45.769770 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0723) created successfully
+00:45:46.347086 NAT: Link down
+00:45:46.347086 Changing the VM state from 'RESUMING' to 'RUNNING'
+00:45:46.347086 Console: Machine state changed to 'Running'
+00:45:47.131762 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+00:45:47.131762 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+00:45:51.294502 NAT: DNS servers changed, triggering reconnect
+00:45:51.315065 NAT: DNS servers changed, triggering reconnect
+00:45:51.392127 NAT: Link up
+00:45:51.393156 NAT: resolv.conf: nameserver 62.2.17.60
+00:45:51.393249 NAT: resolv.conf: nameserver 62.2.24.162
+00:45:51.393519 NAT: resolv.conf: nameserver 62.2.17.61
+00:45:51.393566 NAT: resolv.conf: too many nameserver lines, ignoring 62.2.24.158
+00:45:51.393651 NAT: Adding domain name home
+00:45:51.393673 NAT: DNS#0: 62.2.17.60
+00:45:51.393698 NAT: DNS#1: 62.2.24.162
+00:45:51.393720 NAT: DNS#2: 62.2.17.61
+01:11:39.109008 Pausing VM execution, reason 'host suspend'
+01:11:39.122583 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+01:11:39.196127 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0781) created successfully
+01:11:39.506451 PDMR3Suspend: 322 453 684 ns run time
+01:11:39.506451 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+01:11:39.509685 Console: Machine state changed to 'Paused'
+01:12:42.425028 NAT: DNS servers changed, triggering reconnect
+01:12:46.336990 NAT: DNS servers changed, triggering reconnect
+01:12:46.348733 NAT: DNS servers changed, triggering reconnect
+01:14:11.040375 NAT: DNS servers changed, triggering reconnect
+01:14:13.837249 NAT: DNS servers changed, triggering reconnect
+01:14:13.847407 NAT: DNS servers changed, triggering reconnect
+01:15:39.392514 NAT: DNS servers changed, triggering reconnect
+01:15:41.178822 NAT: DNS servers changed, triggering reconnect
+01:15:41.408913 NAT: DNS servers changed, triggering reconnect
+01:17:06.962824 NAT: DNS servers changed, triggering reconnect
+01:17:08.719438 NAT: DNS servers changed, triggering reconnect
+01:17:09.006982 NAT: DNS servers changed, triggering reconnect
+01:18:34.603055 NAT: DNS servers changed, triggering reconnect
+01:18:39.255418 NAT: DNS servers changed, triggering reconnect
+01:18:39.268010 NAT: DNS servers changed, triggering reconnect
+01:20:02.408328 NAT: DNS servers changed, triggering reconnect
+01:20:07.013261 NAT: DNS servers changed, triggering reconnect
+01:20:07.043635 NAT: DNS servers changed, triggering reconnect
+01:20:15.279669 TM: u64DeltaPrev=-15465136 u64PrevNanoTS=0x000011bc56f738af u64NanoTS=0x000011bc560b3dff
+01:21:29.902694 NAT: DNS servers changed, triggering reconnect
+01:21:34.924622 NAT: DNS servers changed, triggering reconnect
+01:21:34.937136 NAT: DNS servers changed, triggering reconnect
+01:22:57.452398 NAT: DNS servers changed, triggering reconnect
+01:22:59.256238 NAT: DNS servers changed, triggering reconnect
+01:22:59.468780 NAT: DNS servers changed, triggering reconnect
+01:24:25.052963 NAT: DNS servers changed, triggering reconnect
+01:24:26.787005 NAT: DNS servers changed, triggering reconnect
+01:24:27.082811 NAT: DNS servers changed, triggering reconnect
+01:25:52.659591 NAT: DNS servers changed, triggering reconnect
+01:25:58.885889 NAT: DNS servers changed, triggering reconnect
+01:25:58.897157 NAT: DNS servers changed, triggering reconnect
+01:25:59.878727 Resuming VM execution, reason 'host resume'
+01:25:59.878727 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+01:25:59.878727 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0723) created successfully
+01:26:00.171897 NAT: Link down
+01:26:00.171897 Changing the VM state from 'RESUMING' to 'RUNNING'
+01:26:00.171897 Console: Machine state changed to 'Running'
+01:26:00.193306 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+01:26:00.193306 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+01:26:03.504049 TM: u64DeltaPrev=-12102193 u64PrevNanoTS=0x0000120d6a8e7f75 u64NanoTS=0x0000120d69d5d544
+01:26:05.178599 NAT: Link up
+01:26:05.178805 NAT: resolv.conf: nameserver 62.2.17.60
+01:26:05.178834 NAT: resolv.conf: nameserver 62.2.24.162
+01:26:05.178850 NAT: resolv.conf: nameserver 62.2.17.61
+01:26:05.178864 NAT: resolv.conf: too many nameserver lines, ignoring 62.2.24.158
+01:26:05.178910 NAT: Adding domain name home
+01:26:05.178925 NAT: DNS#0: 62.2.17.60
+01:26:05.178939 NAT: DNS#1: 62.2.24.162
+01:26:05.178949 NAT: DNS#2: 62.2.17.61
+01:43:08.438411 Pausing VM execution, reason 'host suspend'
+01:43:08.438988 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+01:43:08.455295 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0781) created successfully
+01:43:08.696462 PDMR3Suspend: 257 259 558 ns run time
+01:43:08.696462 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+01:43:08.696462 Console: Machine state changed to 'Paused'
+01:44:13.051094 NAT: DNS servers changed, triggering reconnect
+01:44:13.122693 Resuming VM execution, reason 'host resume'
+01:44:13.122776 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+01:44:13.122922 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0723) created successfully
+01:44:13.260210 NAT: Link down
+01:44:13.260282 Changing the VM state from 'RESUMING' to 'RUNNING'
+01:44:13.260299 Console: Machine state changed to 'Running'
+01:44:13.292827 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+01:44:13.292874 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+01:44:18.262663 NAT: Link up
+01:44:26.749871 NAT: DNS servers changed, triggering reconnect
+01:44:26.750109 NAT: Link down
+01:44:26.762188 NAT: DNS servers changed, triggering reconnect
+01:44:31.750485 NAT: Link up
+01:44:31.750571 NAT: resolv.conf: nameserver 192.168.43.1
+01:44:31.750595 NAT: DNS#0: 192.168.43.1
+01:53:39.695729 NAT: DHCP offered IP address 10.0.2.15
+01:53:39.710448 NAT: DHCP offered IP address 10.0.2.15
+02:36:33.903629 NAT: DNS servers changed, triggering reconnect
+02:36:33.904159 NAT: Link down
+02:36:38.906219 NAT: Link up
+02:36:42.363471 NAT: DNS servers changed, triggering reconnect
+02:36:42.364364 NAT: Link down
+02:36:42.375837 NAT: DNS servers changed, triggering reconnect
+02:36:47.366788 NAT: Link up
+02:36:47.367272 NAT: resolv.conf: nameserver 192.168.43.1
+02:36:47.367458 NAT: DNS#0: 192.168.43.1
+02:42:36.174835 NAT: DNS servers changed, triggering reconnect
+02:42:36.175025 NAT: Link down
+02:42:41.175590 NAT: Link up
+02:42:46.075569 NAT: DNS servers changed, triggering reconnect
+02:42:46.075569 NAT: Link down
+02:42:46.085579 NAT: DNS servers changed, triggering reconnect
+02:42:51.076681 NAT: Link up
+02:42:51.077037 NAT: resolv.conf: nameserver 192.168.43.1
+02:42:51.077153 NAT: DNS#0: 192.168.43.1
+02:58:31.236583 Pausing VM execution, reason 'host suspend'
+02:58:31.238947 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+02:58:31.305891 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0781) created successfully
+02:58:31.546969 PDMR3Suspend: 307 991 119 ns run time
+02:58:31.547018 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+02:58:31.547054 Console: Machine state changed to 'Paused'
+02:58:43.389774 Resuming VM execution, reason 'host resume'
+02:58:43.389976 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+02:58:43.390313 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0723) created successfully
+02:58:43.505274 Changing the VM state from 'RESUMING' to 'RUNNING'
+02:58:43.505274 Console: Machine state changed to 'Running'
+02:58:43.545212 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+02:58:43.545293 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+03:31:38.339619 NAT: DNS servers changed, triggering reconnect
+03:31:38.352600 NAT: Link down
+03:31:43.352764 NAT: Link up
+03:33:53.486022 NAT: DNS servers changed, triggering reconnect
+03:33:53.486022 NAT: Link down
+03:33:53.495807 NAT: DNS servers changed, triggering reconnect
+03:33:58.486301 NAT: Link up
+03:33:58.486410 NAT: resolv.conf: nameserver 62.2.17.60
+03:33:58.486423 NAT: resolv.conf: nameserver 62.2.24.162
+03:33:58.486431 NAT: resolv.conf: nameserver 62.2.17.61
+03:33:58.486439 NAT: resolv.conf: too many nameserver lines, ignoring 62.2.24.158
+03:33:58.486460 NAT: Adding domain name home
+03:33:58.486466 NAT: DNS#0: 62.2.17.60
+03:33:58.486472 NAT: DNS#1: 62.2.24.162
+03:33:58.486477 NAT: DNS#2: 62.2.17.61
+04:18:08.515713 Pausing VM execution, reason 'host suspend'
+04:18:08.526245 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+04:18:08.545634 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0781) created successfully
+04:18:08.847420 PDMR3Suspend: 321 171 936 ns run time
+04:18:08.847437 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+04:18:08.847507 Console: Machine state changed to 'Paused'
+04:18:17.891433 NAT: DNS servers changed, triggering reconnect
+04:18:25.235735 Resuming VM execution, reason 'host resume'
+04:18:25.235735 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+04:18:25.235735 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0723) created successfully
+04:18:25.363327 NAT: Link down
+04:18:25.363770 Changing the VM state from 'RESUMING' to 'RUNNING'
+04:18:25.363889 Console: Machine state changed to 'Running'
+04:18:25.385394 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+04:18:25.385495 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+04:18:29.106108 NAT: DNS servers changed, triggering reconnect
+04:18:29.117457 NAT: DNS servers changed, triggering reconnect
+04:18:30.365626 NAT: Link up
+04:18:30.366090 NAT: resolv.conf: nameserver 192.168.43.1
+04:18:30.366239 NAT: DNS#0: 192.168.43.1
+04:18:34.955540 Pausing VM execution, reason 'host suspend'
+04:18:34.955540 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+04:18:34.955540 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0781) created successfully
+04:18:35.127734 PDMR3Suspend: 172 188 014 ns run time
+04:18:35.127787 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+04:18:35.127823 Console: Machine state changed to 'Paused'
+04:20:17.898402 NAT: DNS servers changed, triggering reconnect
+04:20:22.806383 Resuming VM execution, reason 'host resume'
+04:20:22.807599 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+04:20:22.807776 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0723) created successfully
+04:20:22.959174 NAT: Link down
+04:20:22.959246 Changing the VM state from 'RESUMING' to 'RUNNING'
+04:20:22.959262 Console: Machine state changed to 'Running'
+04:20:23.064685 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+04:20:23.064737 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+04:20:27.983788 NAT: Link up
+04:20:30.048485 NAT: DNS servers changed, triggering reconnect
+04:20:30.048896 NAT: Link down
+04:20:30.063378 NAT: DNS servers changed, triggering reconnect
+04:20:35.049287 NAT: Link up
+04:20:35.049388 NAT: resolv.conf: nameserver 130.60.128.3
+04:20:35.049411 NAT: resolv.conf: nameserver 130.60.64.51
+04:20:35.049440 NAT: Adding domain name uzh.ch
+04:20:35.049446 NAT: DNS#0: 130.60.128.3
+04:20:35.049452 NAT: DNS#1: 130.60.64.51
+04:49:06.590871 NAT: DNS servers changed, triggering reconnect
+04:49:06.599177 NAT: Link down
+04:49:06.605173 NAT: DNS servers changed, triggering reconnect
+04:49:06.619818 NAT: DNS servers changed, triggering reconnect
+04:49:11.599658 NAT: Link up
+04:49:11.600312 NAT: resolv.conf: nameserver 130.60.128.3
+04:49:11.600385 NAT: resolv.conf: nameserver 130.60.64.51
+04:49:11.600463 NAT: Adding domain name uzh.ch
+04:49:11.600490 NAT: DNS#0: 130.60.128.3
+04:49:11.600510 NAT: DNS#1: 130.60.64.51
+05:03:21.445770 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+05:03:21.487671 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x1
+05:03:21.517464 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=1313 h=575 bpp=32 cbLine=0x1484 flags=0x1
+05:03:21.565021 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+05:03:21.635827 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+05:03:21.635827 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x1
+05:03:21.635827 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=1313 h=575 bpp=32 cbLine=0x1484 flags=0x1
+05:03:21.635827 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+05:03:22.014633 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+05:03:22.039411 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+05:03:22.039585 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+05:03:22.039629 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+05:03:22.039792 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+05:03:22.085123 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+05:03:22.190983 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+05:03:22.192800 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+05:03:22.193874 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+05:03:22.195492 GUI: UIMachineLogic: Guest-screen count changed
+05:03:22.265682 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+05:03:22.265790 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+05:13:34.515599 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+05:13:34.515599 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x1
+05:13:34.515599 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=1313 h=575 bpp=32 cbLine=0x1484 flags=0x1
+05:13:34.515599 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+05:13:34.515599 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+05:13:34.515599 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+05:13:34.515599 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+05:13:34.515599 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+05:13:34.515599 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+05:13:34.515599 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+05:13:34.515599 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x3
+05:13:34.515599 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+05:13:34.515599 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+05:13:34.515599 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+05:13:34.515599 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+05:13:34.515599 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x3
+05:13:34.515599 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+05:13:34.520617 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+05:13:34.525753 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+05:13:34.525753 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+05:13:34.525753 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+05:13:34.525753 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+05:13:34.525753 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+05:13:34.525753 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+05:13:34.535853 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+05:13:34.535853 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+05:13:34.535853 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+05:13:34.535853 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+05:13:34.535853 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+05:54:24.785504 Pausing VM execution, reason 'host suspend'
+05:54:24.785504 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+05:54:24.896775 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0781) created successfully
+05:54:25.100985 PDMR3Suspend: 315 470 764 ns run time
+05:54:25.101075 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+05:54:25.101138 Console: Machine state changed to 'Paused'
+05:55:36.826833 NAT: DNS servers changed, triggering reconnect
+05:55:36.876335 Resuming VM execution, reason 'host resume'
+05:55:36.876427 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+05:55:36.876570 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0723) created successfully
+05:55:37.006013 NAT: Link down
+05:55:37.006111 Changing the VM state from 'RESUMING' to 'RUNNING'
+05:55:37.006160 Console: Machine state changed to 'Running'
+05:55:37.032869 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+05:55:37.032869 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+05:55:37.284771 NAT: DNS servers changed, triggering reconnect
+05:55:38.163705 NAT: DNS servers changed, triggering reconnect
+05:55:38.434002 NAT: DNS servers changed, triggering reconnect
+05:55:42.011013 NAT: Link up
+05:55:42.011450 NAT: resolv.conf: nameserver 130.60.128.3
+05:55:42.011547 NAT: resolv.conf: nameserver 130.60.64.51
+05:55:42.011684 NAT: Adding domain name uzh.ch
+05:55:42.011735 NAT: DNS#0: 130.60.128.3
+05:55:42.011774 NAT: DNS#1: 130.60.64.51
+05:56:11.592141 NAT: DNS servers changed, triggering reconnect
+05:56:11.592141 NAT: Link down
+05:56:11.603286 NAT: DNS servers changed, triggering reconnect
+05:56:16.592498 NAT: Link up
+05:56:16.592750 NAT: resolv.conf: nameserver 130.60.128.3
+05:56:16.592792 NAT: resolv.conf: nameserver 130.60.64.51
+05:56:16.592857 NAT: Adding domain name uzh.ch
+05:56:16.592878 NAT: DNS#0: 130.60.128.3
+05:56:16.592897 NAT: DNS#1: 130.60.64.51
+06:08:41.865254 Pausing VM execution, reason 'host suspend'
+06:08:41.865254 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+06:08:41.885792 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0781) created successfully
+06:08:42.196104 PDMR3Suspend: 330 849 624 ns run time
+06:08:42.196104 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+06:08:42.196104 Console: Machine state changed to 'Paused'
+06:10:09.798562 NAT: DNS servers changed, triggering reconnect
+06:10:11.683691 Resuming VM execution, reason 'host resume'
+06:10:11.683782 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+06:10:11.683932 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0723) created successfully
+06:10:11.807693 NAT: Link down
+06:10:11.807727 Changing the VM state from 'RESUMING' to 'RUNNING'
+06:10:11.807744 Console: Machine state changed to 'Running'
+06:10:11.841821 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+06:10:11.841876 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+06:10:16.808703 NAT: Link up
+06:10:23.351359 NAT: DNS servers changed, triggering reconnect
+06:10:23.351752 NAT: Link down
+06:10:23.390558 NAT: DNS servers changed, triggering reconnect
+06:10:28.352075 NAT: Link up
+06:10:28.352173 NAT: resolv.conf: nameserver 130.60.128.3
+06:10:28.352186 NAT: resolv.conf: nameserver 130.60.64.51
+06:10:28.352208 NAT: Adding domain name uzh.ch
+06:10:28.352213 NAT: DNS#0: 130.60.128.3
+06:10:28.352220 NAT: DNS#1: 130.60.64.51
+09:04:23.865143 Pausing VM execution, reason 'host suspend'
+09:04:23.885772 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+09:04:23.988767 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0781) created successfully
+09:04:24.366340 PDMR3Suspend: 480 354 582 ns run time
+09:04:24.366373 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+09:04:24.366395 Console: Machine state changed to 'Paused'
+09:06:01.878203 NAT: DNS servers changed, triggering reconnect
+09:06:11.179637 NAT: DNS servers changed, triggering reconnect
+09:06:11.190943 NAT: DNS servers changed, triggering reconnect
+09:07:49.366587 NAT: DNS servers changed, triggering reconnect
+09:07:56.026753 NAT: DNS servers changed, triggering reconnect
+09:07:56.037975 NAT: DNS servers changed, triggering reconnect
+09:08:10.924498 TM: u64DeltaPrev=-21397972 u64PrevNanoTS=0x00002b453627b9c7 u64NanoTS=0x00002b4534e137f3
+09:09:35.066520 NAT: DNS servers changed, triggering reconnect
+09:09:42.375969 NAT: DNS servers changed, triggering reconnect
+09:09:42.393262 NAT: DNS servers changed, triggering reconnect
+09:09:46.455948 NAT: DNS servers changed, triggering reconnect
+09:09:49.737729 NAT: DNS servers changed, triggering reconnect
+09:09:49.742787 NAT: DNS servers changed, triggering reconnect
+09:11:24.178044 NAT: DNS servers changed, triggering reconnect
+09:11:30.936035 NAT: DNS servers changed, triggering reconnect
+09:11:30.946129 NAT: DNS servers changed, triggering reconnect
+09:11:43.233211 TM: u64DeltaPrev=-24250506 u64PrevNanoTS=0x00002b76a4e9612e u64NanoTS=0x00002b76a37758a4
+09:13:11.988653 NAT: DNS servers changed, triggering reconnect
+09:13:18.480342 NAT: DNS servers changed, triggering reconnect
+09:13:18.494860 NAT: DNS servers changed, triggering reconnect
+09:13:23.386450 TM: u64DeltaPrev=-20762115 u64PrevNanoTS=0x00002b8df64d567d u64NanoTS=0x00002b8df510887a
+09:14:57.735733 NAT: DNS servers changed, triggering reconnect
+09:15:04.901245 NAT: DNS servers changed, triggering reconnect
+09:15:04.901245 NAT: DNS servers changed, triggering reconnect
+09:15:09.117767 NAT: DNS servers changed, triggering reconnect
+09:15:12.331145 NAT: DNS servers changed, triggering reconnect
+09:15:12.356298 NAT: DNS servers changed, triggering reconnect
+09:16:44.800756 NAT: DNS servers changed, triggering reconnect
+09:16:53.575688 NAT: DNS servers changed, triggering reconnect
+09:16:53.586997 NAT: DNS servers changed, triggering reconnect
+09:17:08.049245 TM: u64DeltaPrev=-15981929 u64PrevNanoTS=0x00002bc244f60924 u64NanoTS=0x00002bc244022bbb
+09:18:34.469022 NAT: DNS servers changed, triggering reconnect
+09:18:41.465674 NAT: DNS servers changed, triggering reconnect
+09:18:41.483030 NAT: DNS servers changed, triggering reconnect
+09:20:20.281168 NAT: DNS servers changed, triggering reconnect
+09:20:29.475969 NAT: DNS servers changed, triggering reconnect
+09:20:29.487499 NAT: DNS servers changed, triggering reconnect
+09:22:07.978539 NAT: DNS servers changed, triggering reconnect
+09:22:16.974553 NAT: DNS servers changed, triggering reconnect
+09:22:16.986280 NAT: DNS servers changed, triggering reconnect
+09:23:55.781549 NAT: DNS servers changed, triggering reconnect
+09:24:04.879760 NAT: DNS servers changed, triggering reconnect
+09:24:04.895630 NAT: DNS servers changed, triggering reconnect
+09:25:43.277851 NAT: DNS servers changed, triggering reconnect
+09:25:54.524077 NAT: DNS servers changed, triggering reconnect
+09:25:54.541316 NAT: DNS servers changed, triggering reconnect
+09:27:32.977292 NAT: DNS servers changed, triggering reconnect
+09:27:38.103458 Resuming VM execution, reason 'host resume'
+09:27:38.124620 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+09:27:38.124620 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0723) created successfully
+09:27:38.354918 NAT: Link down
+09:27:38.354918 Changing the VM state from 'RESUMING' to 'RUNNING'
+09:27:38.354918 Console: Machine state changed to 'Running'
+09:27:38.395483 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+09:27:38.395483 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+09:27:43.347871 NAT: Link up
+09:28:14.201891 NAT: DNS servers changed, triggering reconnect
+09:28:14.202224 NAT: Link down
+09:28:14.216755 NAT: DNS servers changed, triggering reconnect
+09:28:19.206906 NAT: Link up
+09:28:19.207026 NAT: resolv.conf: nameserver 130.60.128.3
+09:28:19.207041 NAT: resolv.conf: nameserver 130.60.64.51
+09:28:19.207064 NAT: Adding domain name uzh.ch
+09:28:19.207070 NAT: DNS#0: 130.60.128.3
+09:28:19.207076 NAT: DNS#1: 130.60.64.51
+11:19:54.925627 Pausing VM execution, reason 'host suspend'
+11:19:54.945804 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+11:19:55.156292 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0781) created successfully
+11:19:55.535077 PDMR3Suspend: 589 272 914 ns run time
+11:19:55.535077 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+11:19:55.535077 Console: Machine state changed to 'Paused'
+11:20:01.286472 Resuming VM execution, reason 'host resume'
+11:20:01.286548 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+11:20:01.286684 AIOMgr: Endpoint for file '/Users/lydiahellrung/VirtualBox/NeuroDebian 8.0.0  (64bit)/NeuroDebian_8.0.0_amd64-disk1.vmdk' (flags 000c0723) created successfully
+11:20:01.477373 Changing the VM state from 'RESUMING' to 'RUNNING'
+11:20:01.477414 Console: Machine state changed to 'Running'
+11:20:01.496844 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+11:20:01.496914 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+11:25:19.352857 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 640x375 if necessary
+11:25:19.352895 VMMDev: SetVideoModeHint: Got a video mode hint (640x375x0)@(0x0),(1;0) at 0
+11:25:19.391503 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 640x480
+11:25:19.391551 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 640x418
+11:25:19.538539 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:25:19.538814 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x3
+11:25:19.538989 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+11:25:19.539032 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:25:19.539043 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:25:19.540758 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+11:25:19.540856 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+11:25:19.540865 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+11:25:19.541519 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+11:25:19.541827 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+11:25:19.558565 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:25:19.558674 VBVA: InfoScreen: [0] @0,0 640x575, line 0xa00, BPP 32, flags 0x3
+11:25:19.558722 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+11:25:19.561564 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+11:25:19.658304 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:25:19.658459 VBVA: InfoScreen: [0] @0,0 640x375, line 0xa00, BPP 32, flags 0x1
+11:25:19.658517 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=640 h=375 bpp=32 cbLine=0xA00 flags=0x1
+11:25:19.667935 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+11:25:19.784962 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:25:19.784995 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:25:19.785010 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+11:25:19.785017 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+11:25:19.785654 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+11:25:19.785963 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+11:25:20.034109 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:25:20.034135 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:25:20.034919 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+11:25:20.034926 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+11:25:20.035267 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+11:25:20.785675 GUI: UIMachineLogic: Guest-screen count changed
+11:25:20.831114 GUI: UIMachineLogic: Host-screen count changed
+11:25:21.526571 GUI: UIMediumEnumerator: Medium-enumeration finished!
+11:35:19.305100 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:35:19.305100 VBVA: InfoScreen: [0] @0,0 640x375, line 0xa00, BPP 32, flags 0x1
+11:35:19.305100 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=640 h=375 bpp=32 cbLine=0xA00 flags=0x1
+11:35:19.305100 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+11:35:19.305100 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+11:35:19.305100 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+11:35:19.305100 GUI: UIFrameBufferPrivate::performResize: Size=640x375, Directly using source bitmap content
+11:35:19.305100 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+11:35:19.305100 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:35:19.305100 VBVA: InfoScreen: [0] @0,0 640x375, line 0xa00, BPP 32, flags 0x3
+11:35:19.305100 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=640 h=375 bpp=0 cbLine=0x0 flags=0x3
+11:35:19.305100 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+11:35:19.305100 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:35:19.305100 VBVA: InfoScreen: [0] @0,0 640x375, line 0xa00, BPP 32, flags 0x3
+11:35:19.305100 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=640 h=375 bpp=0 cbLine=0x0 flags=0x3
+11:35:19.308256 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+11:35:19.315301 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:35:19.315301 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:35:19.329770 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:35:19.329818 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:35:19.329838 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+11:35:19.329850 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+11:35:19.329879 GUI: UIFrameBufferPrivate::performResize: Size=640x375, Directly using source bitmap content
+11:35:19.330179 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+11:35:19.335182 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:35:19.335182 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:35:19.335182 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+11:35:19.335182 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+11:35:19.335182 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+11:47:50.038175 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 1440x900
+11:47:50.038253 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 1440x838
+11:47:50.068929 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 1313x575 if necessary
+11:47:50.068988 VMMDev: SetVideoModeHint: Got a video mode hint (1313x575x0)@(0x0),(1;0) at 0
+11:47:50.319121 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:47:50.319347 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:47:50.319377 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:47:50.319449 VBVA: InfoScreen: [0] @0,0 640x375, line 0x1484, BPP 32, flags 0x3
+11:47:50.319503 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=640 h=375 bpp=0 cbLine=0x0 flags=0x3
+11:47:50.320657 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+11:47:50.320718 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+11:47:50.320727 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+11:47:50.320746 GUI: UIFrameBufferPrivate::performResize: Size=640x375, Directly using source bitmap content
+11:47:50.320853 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+11:47:50.341381 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:47:50.342331 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x1
+11:47:50.342412 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=1313 h=575 bpp=32 cbLine=0x1484 flags=0x1
+11:47:50.342451 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+11:47:50.591281 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:47:50.591307 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:47:50.591320 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+11:47:50.591326 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+11:47:50.591350 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+11:47:50.601934 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+11:47:51.225176 GUI: UIMachineLogic: Guest-screen count changed
+11:47:51.468585 GUI: UIMachineLogic: Host-screen count changed
+11:47:52.029697 GUI: UIMediumEnumerator: Medium-enumeration finished!
+11:56:43.729411 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 640x480
+11:56:43.756502 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 640x422
+11:56:43.756675 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 640x375 if necessary
+11:56:43.756702 VMMDev: SetVideoModeHint: Got a video mode hint (640x375x32)@(0x0),(1;0) at 0
+11:56:43.862240 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:56:43.862534 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:56:43.862545 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:56:43.862602 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x3
+11:56:43.862625 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+11:56:43.863503 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+11:56:43.863591 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+11:56:43.863599 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+11:56:43.863614 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+11:56:43.863835 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+11:56:43.881630 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:56:43.881764 VBVA: InfoScreen: [0] @0,0 640x575, line 0xa00, BPP 32, flags 0x3
+11:56:43.881827 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+11:56:43.883916 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+11:56:44.086777 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:56:44.086921 VBVA: InfoScreen: [0] @0,0 640x375, line 0xa00, BPP 32, flags 0x1
+11:56:44.086941 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=640 h=375 bpp=32 cbLine=0xA00 flags=0x1
+11:56:44.086983 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+11:56:44.171933 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:56:44.171960 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:56:44.171974 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+11:56:44.171981 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+11:56:44.172632 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+11:56:44.172838 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+11:56:44.536696 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:56:44.536722 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:56:44.536735 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+11:56:44.536742 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+11:56:44.536985 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+11:56:44.999826 GUI: UIMachineLogic: Guest-screen count changed
+11:56:45.152656 GUI: UIMachineLogic: Host-screen count changed
+11:56:45.747461 GUI: UIMediumEnumerator: Medium-enumeration finished!
+11:57:47.947348 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 1440x900
+11:57:47.947407 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 1440x842
+11:57:48.130791 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 1313x575 if necessary
+11:57:48.130833 VMMDev: SetVideoModeHint: Got a video mode hint (1313x575x32)@(0x0),(1;0) at 0
+11:57:48.268414 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:57:48.268661 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:57:48.268671 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:57:48.268791 VBVA: InfoScreen: [0] @0,0 640x375, line 0x1484, BPP 32, flags 0x1
+11:57:48.268853 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=640 h=375 bpp=32 cbLine=0x1484 flags=0x1
+11:57:48.268885 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+11:57:48.268930 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+11:57:48.268937 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+11:57:48.268951 GUI: UIFrameBufferPrivate::performResize: Size=640x375, Directly using source bitmap content
+11:57:48.269081 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+11:57:48.283105 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:57:48.283175 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x1
+11:57:48.283222 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:57:48.283231 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:57:48.283255 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=1313 h=575 bpp=32 cbLine=0x1484 flags=0x1
+11:57:48.283287 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+11:57:48.283328 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+11:57:48.283339 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+11:57:48.283376 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+11:57:48.283854 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+11:57:48.718907 GUI: UIMachineLogic: Host-screen count changed
+11:57:48.746464 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 1440x838
+11:57:49.016124 GUI: UIMediumEnumerator: Medium-enumeration finished!
+11:59:43.522314 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 640x480
+11:59:43.522357 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 640x422
+11:59:43.522466 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 640x375 if necessary
+11:59:43.522490 VMMDev: SetVideoModeHint: Got a video mode hint (640x375x32)@(0x0),(1;0) at 0
+11:59:43.708266 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:59:43.708566 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:59:43.708576 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:59:43.708636 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x3
+11:59:43.708696 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+11:59:43.711484 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+11:59:43.711576 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+11:59:43.711584 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+11:59:43.711600 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+11:59:43.711814 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+11:59:43.821154 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:59:43.823951 VBVA: InfoScreen: [0] @0,0 640x575, line 0xa00, BPP 32, flags 0x3
+11:59:43.824021 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+11:59:43.825103 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+11:59:43.842246 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+11:59:43.842339 VBVA: InfoScreen: [0] @0,0 640x375, line 0xa00, BPP 32, flags 0x1
+11:59:43.842368 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=640 h=375 bpp=32 cbLine=0xA00 flags=0x1
+11:59:43.842419 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+11:59:44.000453 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:59:44.000484 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:59:44.000498 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+11:59:44.000505 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+11:59:44.001112 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+11:59:44.001308 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+11:59:44.215614 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+11:59:44.215641 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+11:59:44.215655 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+11:59:44.215662 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+11:59:44.215909 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+11:59:44.267106 GUI: UIMachineLogic: Guest-screen count changed
+11:59:44.387628 GUI: UIMachineLogic: Host-screen count changed
+11:59:44.715681 GUI: UIMediumEnumerator: Medium-enumeration finished!
+12:02:50.715366 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 1440x900
+12:02:50.715757 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 1440x842
+12:02:50.766549 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 1313x575 if necessary
+12:02:50.766613 VMMDev: SetVideoModeHint: Got a video mode hint (1313x575x32)@(0x0),(1;0) at 0
+12:02:50.900141 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:02:50.900401 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:02:50.900412 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:02:50.900499 VBVA: InfoScreen: [0] @0,0 640x375, line 0x1484, BPP 32, flags 0x1
+12:02:50.900620 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=640 h=375 bpp=32 cbLine=0x1484 flags=0x1
+12:02:50.900656 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+12:02:50.900709 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+12:02:50.900719 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+12:02:50.900734 GUI: UIFrameBufferPrivate::performResize: Size=640x375, Directly using source bitmap content
+12:02:50.900895 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+12:02:50.928520 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:02:50.928677 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x1
+12:02:50.928731 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=1313 h=575 bpp=32 cbLine=0x1484 flags=0x1
+12:02:50.928765 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+12:02:51.169919 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:02:51.169945 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:02:51.169956 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+12:02:51.169963 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+12:02:51.169980 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+12:02:51.170446 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+12:02:51.632065 GUI: UIMachineLogic: Host-screen count changed
+12:02:51.665934 GUI: UIMediumEnumerator: Medium-enumeration finished!
+12:02:51.772590 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 1440x838
+12:03:48.692453 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 640x375 if necessary
+12:03:48.692504 VMMDev: SetVideoModeHint: Got a video mode hint (640x375x32)@(0x0),(1;0) at 0
+12:03:48.692769 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 640x480
+12:03:48.692788 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 640x418
+12:03:48.759716 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 640x422
+12:03:48.777252 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:03:48.777343 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x3
+12:03:48.777410 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+12:03:48.779057 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+12:03:48.779164 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:03:48.779195 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:03:48.779310 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+12:03:48.779319 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+12:03:48.779337 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+12:03:48.780962 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+12:03:48.787820 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:03:48.787931 VBVA: InfoScreen: [0] @0,0 640x575, line 0xa00, BPP 32, flags 0x3
+12:03:48.788001 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+12:03:48.789376 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+12:03:48.794601 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:03:48.794677 VBVA: InfoScreen: [0] @0,0 640x375, line 0xa00, BPP 32, flags 0x1
+12:03:48.794706 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=640 h=375 bpp=32 cbLine=0xA00 flags=0x1
+12:03:48.794757 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+12:03:49.011643 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:03:49.011684 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:03:49.011702 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+12:03:49.011709 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+12:03:49.012362 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+12:03:49.012569 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+12:03:49.319287 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:03:49.319312 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:03:49.319325 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+12:03:49.319332 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+12:03:49.319555 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+12:03:49.470501 GUI: UIMachineLogic: Guest-screen count changed
+12:03:49.492441 GUI: UIMachineLogic: Host-screen count changed
+12:03:49.569978 GUI: UIMediumEnumerator: Medium-enumeration finished!
+12:04:48.379182 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 1440x900
+12:04:48.379244 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 1440x842
+12:04:48.380429 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 1313x575 if necessary
+12:04:48.380468 VMMDev: SetVideoModeHint: Got a video mode hint (1313x575x32)@(0x0),(1;0) at 0
+12:04:48.570463 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:04:48.570767 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:04:48.570782 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:04:48.570886 VBVA: InfoScreen: [0] @0,0 640x375, line 0x1484, BPP 32, flags 0x1
+12:04:48.570967 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=640 h=375 bpp=32 cbLine=0x1484 flags=0x1
+12:04:48.571014 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+12:04:48.571070 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+12:04:48.571080 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+12:04:48.571095 GUI: UIFrameBufferPrivate::performResize: Size=640x375, Directly using source bitmap content
+12:04:48.571300 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+12:04:48.640580 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:04:48.640746 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x1
+12:04:48.640802 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=1313 h=575 bpp=32 cbLine=0x1484 flags=0x1
+12:04:48.642488 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+12:04:48.790574 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:04:48.790600 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:04:48.790612 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+12:04:48.790619 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+12:04:48.790634 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+12:04:48.791049 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+12:04:49.294718 GUI: UIMachineLogic: Host-screen count changed
+12:04:49.341222 GUI: UIMediumEnumerator: Medium-enumeration finished!
+12:04:49.432269 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 1440x838
+12:05:59.364830 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 640x480
+12:05:59.376067 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 640x422
+12:05:59.400118 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 640x375 if necessary
+12:05:59.400178 VMMDev: SetVideoModeHint: Got a video mode hint (640x375x32)@(0x0),(1;0) at 0
+12:05:59.624978 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:05:59.625191 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:05:59.625201 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:05:59.625271 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x3
+12:05:59.625271 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+12:05:59.627837 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+12:05:59.627979 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+12:05:59.627989 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+12:05:59.628006 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+12:05:59.628382 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+12:05:59.649787 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:05:59.650002 VBVA: InfoScreen: [0] @0,0 640x575, line 0xa00, BPP 32, flags 0x3
+12:05:59.650062 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+12:05:59.651578 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+12:05:59.670717 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:05:59.671821 VBVA: InfoScreen: [0] @0,0 640x375, line 0xa00, BPP 32, flags 0x1
+12:05:59.671934 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=640 h=375 bpp=32 cbLine=0xA00 flags=0x1
+12:05:59.672047 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+12:05:59.950679 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:05:59.950704 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:05:59.950719 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+12:05:59.950747 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+12:05:59.951327 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+12:05:59.951525 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+12:06:00.181633 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:06:00.181666 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:06:00.181681 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+12:06:00.181688 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+12:06:00.181949 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+12:06:00.257677 GUI: UIMachineLogic: Guest-screen count changed
+12:06:00.281225 GUI: UIMachineLogic: Host-screen count changed
+12:06:00.338506 GUI: UIMediumEnumerator: Medium-enumeration finished!
+12:08:44.377593 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 1440x900
+12:08:44.377643 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 1440x842
+12:08:44.396722 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 1313x575 if necessary
+12:08:44.396770 VMMDev: SetVideoModeHint: Got a video mode hint (1313x575x32)@(0x0),(1;0) at 0
+12:08:44.570330 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:08:44.570634 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:08:44.570648 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:08:44.570759 VBVA: InfoScreen: [0] @0,0 640x375, line 0x1484, BPP 32, flags 0x1
+12:08:44.570836 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=640 h=375 bpp=32 cbLine=0x1484 flags=0x1
+12:08:44.570876 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+12:08:44.570931 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+12:08:44.570940 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+12:08:44.570957 GUI: UIFrameBufferPrivate::performResize: Size=640x375, Directly using source bitmap content
+12:08:44.571116 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+12:08:44.668381 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:08:44.668628 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x1
+12:08:44.668691 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=1313 h=575 bpp=32 cbLine=0x1484 flags=0x1
+12:08:44.668727 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+12:08:45.350125 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:08:45.350154 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:08:45.350166 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+12:08:45.350173 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+12:08:45.350192 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+12:08:45.350750 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+12:08:46.026497 GUI: UIMachineLogic: Host-screen count changed
+12:08:46.031311 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 1440x838
+12:08:46.189521 GUI: UIMediumEnumerator: Medium-enumeration finished!
+12:10:05.459257 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 640x480
+12:10:05.459292 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 640x422
+12:10:05.614415 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 640x375 if necessary
+12:10:05.614468 VMMDev: SetVideoModeHint: Got a video mode hint (640x375x32)@(0x0),(1;0) at 0
+12:10:05.814037 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:10:05.814127 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x3
+12:10:05.814212 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:10:05.814221 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:10:05.814269 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+12:10:05.815950 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+12:10:05.816043 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+12:10:05.816052 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+12:10:05.816069 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+12:10:05.816292 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+12:10:05.832866 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:10:05.833180 VBVA: InfoScreen: [0] @0,0 640x575, line 0xa00, BPP 32, flags 0x3
+12:10:05.833211 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=1313 h=575 bpp=0 cbLine=0x0 flags=0x3
+12:10:05.835383 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+12:10:05.850548 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:10:05.850682 VBVA: InfoScreen: [0] @0,0 640x375, line 0xa00, BPP 32, flags 0x1
+12:10:05.850741 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=640 h=375 bpp=32 cbLine=0xA00 flags=0x1
+12:10:05.850787 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+12:10:06.109356 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:10:06.109383 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:10:06.109398 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+12:10:06.109405 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+12:10:06.109985 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+12:10:06.110193 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+12:10:06.347726 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:10:06.347758 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:10:06.347776 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+12:10:06.347782 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+12:10:06.348020 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+12:10:06.461769 GUI: UIMachineLogic: Guest-screen count changed
+12:10:06.481693 GUI: UIMachineLogic: Host-screen count changed
+12:10:07.189679 GUI: UIMediumEnumerator: Medium-enumeration finished!
+12:15:11.813267 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 1313x575 if necessary
+12:15:11.813323 VMMDev: SetVideoModeHint: Got a video mode hint (1313x575x32)@(0x0),(1;0) at 0
+12:15:11.818315 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenResized: Screen 0 is formally resized to: 0x0 x 1440x900
+12:15:11.818357 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 1440x842
+12:15:11.939293 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:15:11.939428 VBVA: InfoScreen: [0] @0,0 640x375, line 0x1484, BPP 32, flags 0x1
+12:15:11.939584 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=640 h=375 bpp=32 cbLine=0x1484 flags=0x1
+12:15:11.939596 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:15:11.939609 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:15:11.939621 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x375, Sending to async-handler
+12:15:11.939680 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x375
+12:15:11.939687 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x375
+12:15:11.939704 GUI: UIFrameBufferPrivate::performResize: Size=640x375, Directly using source bitmap content
+12:15:11.939856 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 640x375
+12:15:11.987644 VMMDev: Guest Additions capability report: (0x5 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+12:15:11.987815 VBVA: InfoScreen: [0] @0,0 1313x575, line 0x1484, BPP 32, flags 0x1
+12:15:11.987876 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000011964a000 w=1313 h=575 bpp=32 cbLine=0x1484 flags=0x1
+12:15:11.987910 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1313x575, Sending to async-handler
+12:15:12.177519 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+12:15:12.177577 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+12:15:12.177593 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1313x575
+12:15:12.177601 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1313x575
+12:15:12.177617 GUI: UIFrameBufferPrivate::performResize: Size=1313x575, Directly using source bitmap content
+12:15:12.178038 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1313x575
+12:15:12.849533 GUI: UIMachineLogic: Host-screen count changed
+12:15:12.874193 GUI: UIMediumEnumerator: Medium-enumeration finished!
+12:15:12.978777 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenWorkAreaResized: Screen 0 work area is formally resized to: 0x23 x 1440x838
